@@ -1,0 +1,67 @@
+[
+  {
+    "Name": "Red Fort",
+    "Location": "Delhi",
+    "ImageUrl": "https://example.com/redfort.jpg",
+    "EntryTime": "9:30 AM",
+    "ExitTime": "4:30 PM",
+    "EntryFee": "₹50",
+    "EstimatedVisitTime": "2 hours",
+    "BestMonthToVisit": "October to March",
+    "Categories": [ "Historical", "Fort" ],
+    "NearbyPlaces": [ "Jama Masjid", "Chandni Chowk" ],
+    "Stays": [ "Hotel Delhi Heights", "Taj Palace" ]
+  },
+  {
+    "Name": "India Gate",
+    "Location": "Delhi",
+    "ImageUrl": "https://example.com/indiagate.jpg",
+    "EntryTime": "Open 24 hours",
+    "ExitTime": "Open 24 hours",
+    "EntryFee": "Free",
+    "EstimatedVisitTime": "1 hour",
+    "BestMonthToVisit": "October to March",
+    "Categories": [ "Memorial", "Sightseeing" ],
+    "NearbyPlaces": [ "Rashtrapati Bhavan", "National Museum" ],
+    "Stays": [ "The Ashok", "Le Meridien" ]
+  },
+  {
+    "Name": "Taj Mahal",
+    "Location": "Agra",
+    "ImageUrl": "https://example.com/tajmahal.jpg",
+    "EntryTime": "6:00 AM",
+    "ExitTime": "6:30 PM",
+    "EntryFee": "₹250",
+    "EstimatedVisitTime": "3 hours",
+    "BestMonthToVisit": "November to February",
+    "Categories": [ "Historical", "Monument" ],
+    "NearbyPlaces": [ "Agra Fort", "Mehtab Bagh" ],
+    "Stays": [ "The Oberoi Amarvilas", "ITC Mughal" ]
+  },
+  {
+    "Name": "Gateway of India",
+    "Location": "Mumbai",
+    "ImageUrl": "https://example.com/gateway.jpg",
+    "EntryTime": "Open 24 hours",
+    "ExitTime": "Open 24 hours",
+    "EntryFee": "Free",
+    "EstimatedVisitTime": "1 hour",
+    "BestMonthToVisit": "November to February",
+    "Categories": [ "Historical", "Sightseeing" ],
+    "NearbyPlaces": [ "Elephanta Caves", "Taj Hotel" ],
+    "Stays": [ "Trident Nariman Point", "The Taj Mahal Palace" ]
+  },
+  {
+    "Name": "Hawa Mahal",
+    "Location": "Jaipur",
+    "ImageUrl": "https://example.com/hawamahal.jpg",
+    "EntryTime": "9:00 AM",
+    "ExitTime": "5:00 PM",
+    "EntryFee": "₹50",
+    "EstimatedVisitTime": "1 hour",
+    "BestMonthToVisit": "October to March",
+    "Categories": [ "Palace", "Historical" ],
+    "NearbyPlaces": [ "City Palace", "Jantar Mantar" ],
+    "Stays": [ "Rambagh Palace", "Jaipur Marriott" ]
+  }
+]
