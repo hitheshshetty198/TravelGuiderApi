@@ -1,67 +1,245 @@
-[
-  {
-    "Name": "Red Fort",
-    "Location": "Delhi",
-    "ImageUrl": "https://example.com/redfort.jpg",
-    "EntryTime": "9:30 AM",
-    "ExitTime": "4:30 PM",
-    "EntryFee": "₹50",
-    "EstimatedVisitTime": "2 hours",
-    "BestMonthToVisit": "October to March",
-    "Categories": [ "Historical", "Fort" ],
-    "NearbyPlaces": [ "Jama Masjid", "Chandni Chowk" ],
-    "Stays": [ "Hotel Delhi Heights", "Taj Palace" ]
-  },
-  {
-    "Name": "India Gate",
-    "Location": "Delhi",
-    "ImageUrl": "https://example.com/indiagate.jpg",
-    "EntryTime": "Open 24 hours",
-    "ExitTime": "Open 24 hours",
-    "EntryFee": "Free",
-    "EstimatedVisitTime": "1 hour",
-    "BestMonthToVisit": "October to March",
-    "Categories": [ "Memorial", "Sightseeing" ],
-    "NearbyPlaces": [ "Rashtrapati Bhavan", "National Museum" ],
-    "Stays": [ "The Ashok", "Le Meridien" ]
-  },
-  {
-    "Name": "Taj Mahal",
-    "Location": "Agra",
-    "ImageUrl": "https://example.com/tajmahal.jpg",
-    "EntryTime": "6:00 AM",
-    "ExitTime": "6:30 PM",
-    "EntryFee": "₹250",
-    "EstimatedVisitTime": "3 hours",
-    "BestMonthToVisit": "November to February",
-    "Categories": [ "Historical", "Monument" ],
-    "NearbyPlaces": [ "Agra Fort", "Mehtab Bagh" ],
-    "Stays": [ "The Oberoi Amarvilas", "ITC Mughal" ]
-  },
-  {
-    "Name": "Gateway of India",
-    "Location": "Mumbai",
-    "ImageUrl": "https://example.com/gateway.jpg",
-    "EntryTime": "Open 24 hours",
-    "ExitTime": "Open 24 hours",
-    "EntryFee": "Free",
-    "EstimatedVisitTime": "1 hour",
-    "BestMonthToVisit": "November to February",
-    "Categories": [ "Historical", "Sightseeing" ],
-    "NearbyPlaces": [ "Elephanta Caves", "Taj Hotel" ],
-    "Stays": [ "Trident Nariman Point", "The Taj Mahal Palace" ]
-  },
-  {
-    "Name": "Hawa Mahal",
-    "Location": "Jaipur",
-    "ImageUrl": "https://example.com/hawamahal.jpg",
-    "EntryTime": "9:00 AM",
-    "ExitTime": "5:00 PM",
-    "EntryFee": "₹50",
-    "EstimatedVisitTime": "1 hour",
-    "BestMonthToVisit": "October to March",
-    "Categories": [ "Palace", "Historical" ],
-    "NearbyPlaces": [ "City Palace", "Jantar Mantar" ],
-    "Stays": [ "Rambagh Palace", "Jaipur Marriott" ]
-  }
-]
+{
+  "places": [
+    {
+      "name": "Delhi",
+      "category": [
+        "Historical",
+        "Sightseeing"
+      ],
+      "best_months": [
+        "October",
+        "November",
+        "February",
+        "March"
+      ],
+      "locations": [
+        {
+          "name": "Red Fort",
+          "photo": "https://drive.google.com/file/d/1IzVpT1YrOGQHYiqMzMaguRqsC-MKkx2z/view?usp=drive_link",
+          "location": "Netaji Subhash Marg, Delhi",
+          "timing": "9:30 AM - 4:30 PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Jama Masjid",
+            "Chandni Chowk"
+          ]
+        },
+        {
+          "name": "India Gate",
+          "photo": "https://drive.google.com/file/d/13IdOb9SjIDXuXnN7zbLahGjiJF-nQ79M/view?usp=drive_link",
+          "location": "Rajpath, Delhi",
+          "timing": "Open 24 hours",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [
+            "Rashtrapati Bhavan",
+            "National Museum"
+          ]
+        }
+      ],
+      "stays": {
+        "3_star": [
+          "Hotel A",
+          "Hotel B"
+        ],
+        "4_star": [
+          "Hotel C",
+          "Hotel D"
+        ],
+        "5_star": [
+          "Hotel E",
+          "Hotel F"
+        ]
+      },
+      "transportation": [
+        "Metro",
+        "Auto",
+        "Cab"
+      ],
+      "dress_recommendation": "Light cotton clothes in summer, Woolens in winter"
+    },
+    {
+      "name": "Karnataka",
+      "category": [
+        "Heritage",
+        "Temples",
+        "Nature"
+      ],
+      "best_months": [
+        "October",
+        "November",
+        "December",
+        "January",
+        "February"
+      ],
+      "locations": [
+        {
+          "name": "Mysore Palace",
+          "photo": "https://drive.google.com/file/d/1EJArYWbU0cweYa5yUqTd3__sKO1TrO8M/view?usp=drive_link",
+          "location": "Mysuru, Karnataka",
+          "timing": "10:00 AM - 5:30 PM",
+          "ticket_price": 70,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [
+            "Chamundi Hill",
+            "St. Philomena\u2019s Church"
+          ]
+        },
+        {
+          "name": "Hampi",
+          "photo": "https://drive.google.com/file/d/10CoIdBfOVB4h2TfV51NhQ7SymVkdFefd/view?usp=drive_link",
+          "location": "Hampi, Karnataka",
+          "timing": "6:00 AM - 6:00 PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [
+            "Virupaksha Temple",
+            "Lotus Mahal"
+          ]
+        }
+      ],
+      "stays": {
+        "3_star": [
+          "Hotel G",
+          "Hotel H"
+        ],
+        "4_star": [
+          "Hotel I",
+          "Hotel J"
+        ],
+        "5_star": [
+          "Hotel K",
+          "Hotel L"
+        ]
+      },
+      "transportation": [
+        "Bus",
+        "Cab",
+        "Bike"
+      ],
+      "dress_recommendation": "Comfortable clothes and walking shoes"
+    },
+    {
+      "name": "Kerala",
+      "category": [
+        "Beach",
+        "Backwaters",
+        "Nature"
+      ],
+      "best_months": [
+        "November",
+        "December",
+        "January",
+        "February"
+      ],
+      "locations": [
+        {
+          "name": "Alleppey Backwaters",
+          "photo": "https://drive.google.com/file/d/105uvz3sqfWTyxNw13WMy-IOW0aC5_A0K/view?usp=drive_link",
+          "location": "Alleppey, Kerala",
+          "timing": "24 hours (Houseboats)",
+          "ticket_price": 1000,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [
+            "Vembanad Lake",
+            "Kumarakom"
+          ]
+        },
+        {
+          "name": "Munnar",
+          "photo": "https://drive.google.com/file/d/1KURv7IMcoJ32N0mQ9M-28lTOwRTQqPh-/view?usp=drive_link",
+          "location": "Munnar, Kerala",
+          "timing": "6:00 AM - 6:00 PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 6,
+          "nearby_places": [
+            "Tea Museum",
+            "Echo Point"
+          ]
+        }
+      ],
+      "stays": {
+        "3_star": [
+          "Hotel M",
+          "Hotel N"
+        ],
+        "4_star": [
+          "Hotel O",
+          "Hotel P"
+        ],
+        "5_star": [
+          "Hotel Q",
+          "Hotel R"
+        ]
+      },
+      "transportation": [
+        "Boat",
+        "Cab",
+        "Rickshaw"
+      ],
+      "dress_recommendation": "Light clothes, raincoat if monsoon"
+    },
+    {
+      "name": "Maharashtra",
+      "category": [
+        "Cultural",
+        "Hills",
+        "Temples"
+      ],
+      "best_months": [
+        "September",
+        "October",
+        "November",
+        "February",
+        "March"
+      ],
+      "locations": [
+        {
+          "name": "Gateway of India",
+          "photo": "https://drive.google.com/file/d/1st3BALM9bsQUNInHkb3RKKLCUHkFK068/view?usp=drive_link",
+          "location": "Mumbai, Maharashtra",
+          "timing": "Open 24 hours",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [
+            "Elephanta Caves",
+            "Taj Mahal Hotel"
+          ]
+        },
+        {
+          "name": "Ajanta Caves",
+          "photo": "https://drive.google.com/file/d/1rWSOEt0IHV2sCtfY5tFhhfB-HXOT7Gfl/view?usp=drive_link",
+          "location": "Aurangabad, Maharashtra",
+          "timing": "9:00 AM - 5:00 PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [
+            "Ellora Caves",
+            "Bibi Ka Maqbara"
+          ]
+        }
+      ],
+      "stays": {
+        "3_star": [
+          "Hotel S",
+          "Hotel T"
+        ],
+        "4_star": [
+          "Hotel U",
+          "Hotel V"
+        ],
+        "5_star": [
+          "Hotel W",
+          "Hotel X"
+        ]
+      },
+      "transportation": [
+        "Train",
+        "Cab",
+        "Local Bus"
+      ],
+      "dress_recommendation": "Casual wear, hat and sunglasses for daytime"
+    }
+  ]
+}

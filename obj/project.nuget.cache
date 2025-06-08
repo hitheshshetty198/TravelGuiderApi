@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nJDd4bnNwfZhHmgwfFFk9dZVpctIHDkQcb97ZLmP1X0tSP6sAWYFJvBJif7iwjZesKrRJQHOivK1/pO1WT3ghA==",
+  "dgSpecHash": "nl27K8ULXKjbmc+nl03L0ENdZ3qOtOeSFlJiLKqPrhYf567E0pA/6RftCvGpuEQUj7BJ7hFDAnT7bHIDg5SDgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hithesh Shetty\\source\\repos\\TravelGuiderAPI\\TravelGuiderAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hithesh Shetty\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\Hithesh Shetty\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Hithesh Shetty\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Hithesh Shetty\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Hithesh Shetty\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Hithesh Shetty\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Hithesh Shetty\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

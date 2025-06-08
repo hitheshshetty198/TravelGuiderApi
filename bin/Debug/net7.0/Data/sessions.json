@@ -1,0 +1,17 @@
+[
+  {
+    "Email": "john@example.com",
+    "Token": "some-guid-or-random-id",
+    "ExpiresAt": "2025-06-03T17:00:00"
+  },
+  {
+    "Email": "john@example.com",
+    "Token": "b6bcd78e-053e-4cae-b379-9acb32782001",
+    "ExpiresAt": "2025-06-08T16:19:18.0539891Z"
+  },
+  {
+    "Email": "hithesh123@gmail.com",
+    "Token": "73b6ac14-e04c-4bac-a723-327358eb4fd5",
+    "ExpiresAt": "2025-06-08T16:20:45.442357Z"
+  }
+]

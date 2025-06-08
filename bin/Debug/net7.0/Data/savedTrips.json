@@ -1,0 +1,10 @@
+[
+  {
+    "email": "john@example.com",
+    "trip": {
+      "place": "Goa",
+      "days": 3,
+      "itinerary": [ /* same as you're generating now */ ]
+    }
+  }
+]
