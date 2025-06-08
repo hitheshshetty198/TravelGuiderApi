@@ -1,15 +1,22 @@
-﻿FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+﻿# Stage 1: Build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-WORKDIR /src
-COPY ["TravelGuiderAPI.csproj", "./"]
-RUN dotnet restore "TravelBackend.csproj"
-COPY . .
-RUN dotnet publish "TravelGuiderAPI.csproj" -c Release -o /app/publish
+# Copy csproj and restore as distinct layers
+COPY *.csproj ./
+RUN dotnet restore
 
-FROM base AS final
+# Copy the rest of the code
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+# Stage 2: Serve
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
-COPY --from=build /app/publish .
+COPY --from=build /app/out .
+
+# Configure the listening port to match what Render expects
+ENV ASPNETCORE_URLS=http://0.0.0.0:10000
+EXPOSE 10000
+
 ENTRYPOINT ["dotnet", "TravelGuiderAPI.dll"]
