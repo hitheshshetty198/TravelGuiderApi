@@ -17,6 +17,18 @@ builder.Services.AddSwaggerGen();
 // Add config for OpenWeatherMap
 builder.Configuration.AddJsonFile("appsettings.json");
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
