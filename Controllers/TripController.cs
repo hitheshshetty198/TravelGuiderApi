@@ -80,6 +80,26 @@ namespace TravelGuiderAPI.Controllers
             return Ok("Trip saved successfully");
         }
 
+        [HttpGet("get-saved-trips")]
+        public IActionResult GetSavedTrips([FromQuery] string token)
+        {
+            var sessionPath = Path.Combine(_env.ContentRootPath, "Data/sessions.json");
+            var tripPath = Path.Combine(_env.ContentRootPath, "Data/savedTrips.json");
+
+            var sessions = JsonConvert.DeserializeObject<List<Session>>(System.IO.File.ReadAllText(sessionPath)) ?? new();
+
+            var session = sessions.FirstOrDefault(s => s.Token == token && s.ExpiresAt > DateTime.UtcNow);
+            if (session == null)
+                return Unauthorized("Invalid or expired session");
+
+            var savedTrips = JsonConvert.DeserializeObject<List<SavedTrip>>(System.IO.File.ReadAllText(tripPath)) ?? new();
+
+            var userTrips = savedTrips.Where(t => t.Email == session.Email).ToList();
+
+            return Ok(userTrips);
+        }
+
+
     }
 
 }

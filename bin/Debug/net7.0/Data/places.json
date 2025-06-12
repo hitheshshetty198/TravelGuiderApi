@@ -15,7 +15,7 @@
       "locations": [
         {
           "name": "Red Fort",
-          "photo": "https://drive.google.com/file/d/1IzVpT1YrOGQHYiqMzMaguRqsC-MKkx2z/view?usp=drive_link",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449975/RedFort_fg0mbc.webp",
           "location": "Netaji Subhash Marg, Delhi",
           "timing": "9:30 AM - 4:30 PM",
           "ticket_price": 50,
@@ -27,7 +27,7 @@
         },
         {
           "name": "India Gate",
-          "photo": "https://drive.google.com/file/d/13IdOb9SjIDXuXnN7zbLahGjiJF-nQ79M/view?usp=drive_link",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/IndiaGate_luaqxh.webp",
           "location": "Rajpath, Delhi",
           "timing": "Open 24 hours",
           "ticket_price": 0,
@@ -76,7 +76,7 @@
       "locations": [
         {
           "name": "Mysore Palace",
-          "photo": "https://drive.google.com/file/d/1EJArYWbU0cweYa5yUqTd3__sKO1TrO8M/view?usp=drive_link",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/MysorePalace_uolwyk.webp",
           "location": "Mysuru, Karnataka",
           "timing": "10:00 AM - 5:30 PM",
           "ticket_price": 70,
@@ -88,7 +88,7 @@
         },
         {
           "name": "Hampi",
-          "photo": "https://drive.google.com/file/d/10CoIdBfOVB4h2TfV51NhQ7SymVkdFefd/view?usp=drive_link",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/Hampi_poegrm.webp",
           "location": "Hampi, Karnataka",
           "timing": "6:00 AM - 6:00 PM",
           "ticket_price": 30,
@@ -136,7 +136,7 @@
       "locations": [
         {
           "name": "Alleppey Backwaters",
-          "photo": "https://drive.google.com/file/d/105uvz3sqfWTyxNw13WMy-IOW0aC5_A0K/view?usp=drive_link",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/AlleppeyBackwaters_wuuxye.webp",
           "location": "Alleppey, Kerala",
           "timing": "24 hours (Houseboats)",
           "ticket_price": 1000,
@@ -148,7 +148,7 @@
         },
         {
           "name": "Munnar",
-          "photo": "https://drive.google.com/file/d/1KURv7IMcoJ32N0mQ9M-28lTOwRTQqPh-/view?usp=drive_link",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449975/Munnar_kyhn5p.webp",
           "location": "Munnar, Kerala",
           "timing": "6:00 AM - 6:00 PM",
           "ticket_price": 0,
@@ -197,7 +197,7 @@
       "locations": [
         {
           "name": "Gateway of India",
-          "photo": "https://drive.google.com/file/d/1st3BALM9bsQUNInHkb3RKKLCUHkFK068/view?usp=drive_link",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/GatewayOfIndia_xmfeex.webp",
           "location": "Mumbai, Maharashtra",
           "timing": "Open 24 hours",
           "ticket_price": 0,
@@ -209,7 +209,7 @@
         },
         {
           "name": "Ajanta Caves",
-          "photo": "https://drive.google.com/file/d/1rWSOEt0IHV2sCtfY5tFhhfB-HXOT7Gfl/view?usp=drive_link",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/AjantaCaves_tiq0ou.webp",
           "location": "Aurangabad, Maharashtra",
           "timing": "9:00 AM - 5:00 PM",
           "ticket_price": 40,
