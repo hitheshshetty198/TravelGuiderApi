@@ -41,6 +41,7 @@ namespace TravelGuiderAPI.Controllers
                     Date = day.ToString("yyyy-MM-dd"),
                     Visit = location.Name,
                     Address = location.Location,
+                    Photo = location.Photo,
                     Meal = new Meal
                     {
                         Breakfast = "Local Dhaba",

@@ -9,6 +9,7 @@
           "Date": "2025-06-14",
           "Visit": "Red Fort",
           "Address": "Netaji Subhash Marg, Delhi",
+          "Photo": null,
           "Meal": {
             "Breakfast": "Local Dhaba",
             "Lunch": "Recommended Restaurant",
@@ -22,6 +23,7 @@
           "Date": "2025-06-15",
           "Visit": "India Gate",
           "Address": "Rajpath, Delhi",
+          "Photo": null,
           "Meal": {
             "Breakfast": "Local Dhaba",
             "Lunch": "Recommended Restaurant",
@@ -35,6 +37,58 @@
           "Date": "2025-06-16",
           "Visit": "Red Fort",
           "Address": "Netaji Subhash Marg, Delhi",
+          "Photo": null,
+          "Meal": {
+            "Breakfast": "Local Dhaba",
+            "Lunch": "Recommended Restaurant",
+            "Dinner": "Hotel Restaurant"
+          },
+          "Stay": "Hotel A",
+          "Transport": "Cab",
+          "Dress": "Light cotton clothes in summer, Woolens in winter"
+        }
+      ]
+    }
+  },
+  {
+    "Email": "hithesh123@gmail.com",
+    "Trip": {
+      "Place": "Delhi",
+      "Days": 3,
+      "Itinerary": [
+        {
+          "Date": "2025-06-14",
+          "Visit": "Red Fort",
+          "Address": "Netaji Subhash Marg, Delhi",
+          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449975/RedFort_fg0mbc.webp",
+          "Meal": {
+            "Breakfast": "Local Dhaba",
+            "Lunch": "Recommended Restaurant",
+            "Dinner": "Hotel Restaurant"
+          },
+          "Stay": "Hotel A",
+          "Transport": "Metro",
+          "Dress": "Light cotton clothes in summer, Woolens in winter"
+        },
+        {
+          "Date": "2025-06-15",
+          "Visit": "India Gate",
+          "Address": "Rajpath, Delhi",
+          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/IndiaGate_luaqxh.webp",
+          "Meal": {
+            "Breakfast": "Local Dhaba",
+            "Lunch": "Recommended Restaurant",
+            "Dinner": "Hotel Restaurant"
+          },
+          "Stay": "Hotel A",
+          "Transport": "Auto",
+          "Dress": "Light cotton clothes in summer, Woolens in winter"
+        },
+        {
+          "Date": "2025-06-16",
+          "Visit": "Red Fort",
+          "Address": "Netaji Subhash Marg, Delhi",
+          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449975/RedFort_fg0mbc.webp",
           "Meal": {
             "Breakfast": "Local Dhaba",
             "Lunch": "Recommended Restaurant",

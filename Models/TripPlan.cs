@@ -12,6 +12,7 @@
         public string Date { get; set; }
         public string Visit { get; set; }
         public string Address { get; set; }
+        public string Photo { get; set; }
         public Meal Meal { get; set; }
         public string Stay { get; set; }
         public string Transport { get; set; }
