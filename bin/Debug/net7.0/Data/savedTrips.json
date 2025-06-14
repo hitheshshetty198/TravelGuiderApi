@@ -1,5 +1,6 @@
 [
   {
+    "Id": "523176bd-9a86-4753-9a99-06a60d667c96",
     "Email": "hithesh123@gmail.com",
     "Trip": {
       "Place": "Delhi",
@@ -9,6 +10,7 @@
           "Date": "2025-06-14",
           "Visit": "Red Fort",
           "Address": "Netaji Subhash Marg, Delhi",
+          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449975/RedFort_fg0mbc.webp",
           "Meal": {
             "Breakfast": "Local Dhaba",
             "Lunch": "Recommended Restaurant",
@@ -22,6 +24,7 @@
           "Date": "2025-06-15",
           "Visit": "India Gate",
           "Address": "Rajpath, Delhi",
+          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/IndiaGate_luaqxh.webp",
           "Meal": {
             "Breakfast": "Local Dhaba",
             "Lunch": "Recommended Restaurant",
@@ -33,8 +36,9 @@
         },
         {
           "Date": "2025-06-16",
-          "Visit": "Red Fort",
-          "Address": "Netaji Subhash Marg, Delhi",
+          "Visit": "Revisit previous places or leisure day",
+          "Address": "Free day for local exploration",
+          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png",
           "Meal": {
             "Breakfast": "Local Dhaba",
             "Lunch": "Recommended Restaurant",

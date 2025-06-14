@@ -15,9 +15,11 @@
 
     public class SavedTrip
     {
+        public string Id { get; set; }  
         public string Email { get; set; }
         public TripPlan Trip { get; set; }
     }
+
 
     public class TripSaveRequest
     {
