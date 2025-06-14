@@ -3,7 +3,7 @@
     public class User
     {
         public string Email { get; set; }
-        public string Password { get; set; } // Optional: hash later
+        public string Password { get; set; }
     }
 
     public class Session
@@ -16,11 +16,11 @@
     public class SavedTrip
     {
         public string Email { get; set; }
-        public object Trip { get; set; } // use the object to store the itinerary response
+        public TripPlan Trip { get; set; }
     }
 
     public class TripSaveRequest
     {
-        public object Trip { get; set; }
+        public TripPlan Trip { get; set; }
     }
 }

@@ -1,10 +1,50 @@
 [
   {
-    "email": "john@example.com",
-    "trip": {
-      "place": "Goa",
-      "days": 3,
-      "itinerary": [ /* same as you're generating now */ ]
+    "Email": "hithesh123@gmail.com",
+    "Trip": {
+      "Place": "Delhi",
+      "Days": 3,
+      "Itinerary": [
+        {
+          "Date": "2025-06-14",
+          "Visit": "Red Fort",
+          "Address": "Netaji Subhash Marg, Delhi",
+          "Meal": {
+            "Breakfast": "Local Dhaba",
+            "Lunch": "Recommended Restaurant",
+            "Dinner": "Hotel Restaurant"
+          },
+          "Stay": "Hotel A",
+          "Transport": "Metro",
+          "Dress": "Light cotton clothes in summer, Woolens in winter"
+        },
+        {
+          "Date": "2025-06-15",
+          "Visit": "India Gate",
+          "Address": "Rajpath, Delhi",
+          "Meal": {
+            "Breakfast": "Local Dhaba",
+            "Lunch": "Recommended Restaurant",
+            "Dinner": "Hotel Restaurant"
+          },
+          "Stay": "Hotel A",
+          "Transport": "Auto",
+          "Dress": "Light cotton clothes in summer, Woolens in winter"
+        },
+        {
+          "Date": "2025-06-16",
+          "Visit": "Red Fort",
+          "Address": "Netaji Subhash Marg, Delhi",
+          "Meal": {
+            "Breakfast": "Local Dhaba",
+            "Lunch": "Recommended Restaurant",
+            "Dinner": "Hotel Restaurant"
+          },
+          "Stay": "Hotel A",
+          "Transport": "Cab",
+          "Dress": "Light cotton clothes in summer, Woolens in winter"
+        }
+      ]
     }
   }
 ]
