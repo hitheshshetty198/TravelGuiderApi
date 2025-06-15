@@ -67,6 +67,36 @@ namespace TravelGuiderAPI.Controllers
                     visit = "Revisit previous places or leisure day";
                     address = "Free day for local exploration";
                     photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png";
+                    if(day.Date < request.EndDate.Date) {
+                        itinerary.Add(new
+                        {
+                            Date = day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd"),
+                            Visit = visit,
+                            Address = address,
+                            Photo = photo,
+                            Meal = new { Breakfast = "Local Dhaba", Lunch = "Recommended Restaurant", Dinner = "Hotel Restaurant" },
+                            Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
+                            Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
+                            Dress = placeInfo.Dress_Recommendation
+                        });
+                        break;
+                    }
+                    else
+                    {
+                        itinerary.Add(new
+                        {
+                            Date = day.ToString("yyyy-MM-dd"),
+                            Visit = visit,
+                            Address = address,
+                            Photo = photo,
+                            Meal = new { Breakfast = "Local Dhaba", Lunch = "Recommended Restaurant", Dinner = "Hotel Restaurant" },
+                            Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
+                            Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
+                            Dress = placeInfo.Dress_Recommendation
+                        });
+                        break;
+                    }
+                    
                 }
 
                 itinerary.Add(new
@@ -235,6 +265,7 @@ namespace TravelGuiderAPI.Controllers
                     visit = "Revisit previous places or leisure day";
                     address = "Free day for local exploration";
                     photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png";
+                   
                 }
 
                 itinerary.Add(new ItineraryItem

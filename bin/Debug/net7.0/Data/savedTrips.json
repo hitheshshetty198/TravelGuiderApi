@@ -3,36 +3,36 @@
     "Id": "523176bd-9a86-4753-9a99-06a60d667c96",
     "Email": "hithesh123@gmail.com",
     "Trip": {
-      "Place": "Delhi",
+      "Place": "Karnataka",
       "Days": 3,
       "Itinerary": [
         {
           "Date": "2025-06-14",
-          "Visit": "Red Fort",
-          "Address": "Netaji Subhash Marg, Delhi",
-          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449975/RedFort_fg0mbc.webp",
+          "Visit": "Mysore Palace",
+          "Address": "Mysuru, Karnataka",
+          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/MysorePalace_uolwyk.webp",
           "Meal": {
             "Breakfast": "Local Dhaba",
             "Lunch": "Recommended Restaurant",
             "Dinner": "Hotel Restaurant"
           },
-          "Stay": "Hotel A",
-          "Transport": "Metro",
-          "Dress": "Light cotton clothes in summer, Woolens in winter"
+          "Stay": "Hotel G",
+          "Transport": "Bus",
+          "Dress": "Comfortable clothes and walking shoes"
         },
         {
           "Date": "2025-06-15",
-          "Visit": "India Gate",
-          "Address": "Rajpath, Delhi",
-          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/IndiaGate_luaqxh.webp",
+          "Visit": "Hampi",
+          "Address": "Hampi, Karnataka",
+          "Photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/Hampi_poegrm.webp",
           "Meal": {
             "Breakfast": "Local Dhaba",
             "Lunch": "Recommended Restaurant",
             "Dinner": "Hotel Restaurant"
           },
-          "Stay": "Hotel A",
-          "Transport": "Auto",
-          "Dress": "Light cotton clothes in summer, Woolens in winter"
+          "Stay": "Hotel G",
+          "Transport": "Cab",
+          "Dress": "Comfortable clothes and walking shoes"
         },
         {
           "Date": "2025-06-16",
@@ -44,9 +44,9 @@
             "Lunch": "Recommended Restaurant",
             "Dinner": "Hotel Restaurant"
           },
-          "Stay": "Hotel A",
-          "Transport": "Cab",
-          "Dress": "Light cotton clothes in summer, Woolens in winter"
+          "Stay": "Hotel G",
+          "Transport": "Bike",
+          "Dress": "Comfortable clothes and walking shoes"
         }
       ]
     }
