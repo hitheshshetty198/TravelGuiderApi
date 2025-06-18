@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\publish\</_PublishTargetUrl>
-    <History>True|2025-06-08T18:23:20.1273325Z;True|2025-05-31T00:36:10.4606193+05:30;</History>
+    <History>True|2025-06-18T18:50:15.6447108Z;False|2025-06-18T23:59:19.6856404+05:30;True|2025-06-08T23:53:20.1273325+05:30;True|2025-05-31T00:36:10.4606193+05:30;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

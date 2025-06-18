@@ -36,3 +36,8 @@ C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Data\sav
 C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Data\sessions.json
 C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Data\users.json
 C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Newtonsoft.Json.dll
+C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Npgsql.dll
+C:\Users\Hithesh Shetty\source\repos\TravelGuiderAPI\bin\Release\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
