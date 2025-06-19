@@ -5,6 +5,10 @@
         public string Place { get; set; }
         public int Days { get; set; }
         public List<ItineraryItem> Itinerary { get; set; }
+        public decimal Budget { get; set; }
+        public string StayType { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
     }
 
     public class ItineraryItem

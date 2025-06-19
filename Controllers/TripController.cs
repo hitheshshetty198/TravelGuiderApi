@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿// TripController.cs
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using TravelGuiderAPI.Models;
 
@@ -46,80 +47,65 @@ namespace TravelGuiderAPI.Controllers
             var totalDays = (request.EndDate - request.StartDate).Days + 1;
             var totalLocations = placeInfo.Locations.Count;
 
-            var itinerary = new List<object>();
+            var itinerary = new List<ItineraryItem>();
 
             for (int i = 0; i < totalDays; i++)
             {
                 var day = request.StartDate.AddDays(i);
-                string visit;
-                string address;
-                string photo;
 
                 if (i < totalLocations)
                 {
                     var location = placeInfo.Locations[i];
-                    visit = location.Name;
-                    address = location.Location;
-                    photo = location.Photo;
+                    itinerary.Add(new ItineraryItem
+                    {
+                        Date = day.ToString("yyyy-MM-dd"),
+                        Visit = location.Name,
+                        Address = location.Location,
+                        Photo = location.Photo,
+                        Meal = new Meal
+                        {
+                            Breakfast = "Local Dhaba",
+                            Lunch = "Recommended Restaurant",
+                            Dinner = "Hotel Restaurant"
+                        },
+                        Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
+                        Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
+                        Dress = placeInfo.Dress_Recommendation
+                    });
                 }
                 else
                 {
-                    visit = "Revisit previous places or leisure day";
-                    address = "Free day for local exploration";
-                    photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png";
-                    if(day.Date < request.EndDate.Date) {
-                        itinerary.Add(new
-                        {
-                            Date = day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd"),
-                            Visit = visit,
-                            Address = address,
-                            Photo = photo,
-                            Meal = new { Breakfast = "Local Dhaba", Lunch = "Recommended Restaurant", Dinner = "Hotel Restaurant" },
-                            Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
-                            Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
-                            Dress = placeInfo.Dress_Recommendation
-                        });
-                        break;
-                    }
-                    else
+                    itinerary.Add(new ItineraryItem
                     {
-                        itinerary.Add(new
+                        Date = day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd"),
+                        Visit = "Revisit previous places or leisure day",
+                        Address = "Free day for local exploration",
+                        Photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png",
+                        Meal = new Meal
                         {
-                            Date = day.ToString("yyyy-MM-dd"),
-                            Visit = visit,
-                            Address = address,
-                            Photo = photo,
-                            Meal = new { Breakfast = "Local Dhaba", Lunch = "Recommended Restaurant", Dinner = "Hotel Restaurant" },
-                            Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
-                            Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
-                            Dress = placeInfo.Dress_Recommendation
-                        });
-                        break;
-                    }
-                    
+                            Breakfast = "Local Dhaba",
+                            Lunch = "Recommended Restaurant",
+                            Dinner = "Hotel Restaurant"
+                        },
+                        Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
+                        Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
+                        Dress = placeInfo.Dress_Recommendation
+                    });
+                    break;
                 }
-
-                itinerary.Add(new
-                {
-                    Date = day.ToString("yyyy-MM-dd"),
-                    Visit = visit,
-                    Address = address,
-                    Photo = photo,
-                    Meal = new { Breakfast = "Local Dhaba", Lunch = "Recommended Restaurant", Dinner = "Hotel Restaurant" },
-                    Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
-                    Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
-                    Dress = placeInfo.Dress_Recommendation
-                });
             }
 
-            return Ok(new
+            return Ok(new TripPlan
             {
                 Place = request.Place,
                 Days = totalDays,
-                Itinerary = itinerary
+                Itinerary = itinerary,
+                Budget = request.Budget,
+                StayType = request.StayType,
+                StartDate = request.StartDate,
+                EndDate = request.EndDate
             });
         }
-
 
         [HttpPost("save-trip")]
         public IActionResult SaveTrip([FromQuery] string token, [FromBody] TripSaveRequest request)
@@ -134,19 +120,21 @@ namespace TravelGuiderAPI.Controllers
 
             var savedTrips = JsonConvert.DeserializeObject<List<SavedTrip>>(System.IO.File.ReadAllText(tripPath)) ?? new();
 
-            
             savedTrips.Add(new SavedTrip
             {
-                Id = Guid.NewGuid().ToString(),  
+                Id = Guid.NewGuid().ToString(),
                 Email = session.Email,
-                Trip = request.Trip
+                Trip = request.Trip,
+                Budget = request.Trip.Budget,
+                StayType = request.Trip.StayType,
+                StartDate = request.Trip.StartDate,
+                EndDate = request.Trip.EndDate
             });
 
             System.IO.File.WriteAllText(tripPath, JsonConvert.SerializeObject(savedTrips, Formatting.Indented));
 
             return Ok("Trip saved successfully");
         }
-
 
         [HttpGet("get-saved-trips")]
         public IActionResult GetSavedTrips([FromQuery] string token, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
@@ -155,7 +143,6 @@ namespace TravelGuiderAPI.Controllers
             var tripPath = Path.Combine(_env.ContentRootPath, "Data/savedTrips.json");
 
             var sessions = JsonConvert.DeserializeObject<List<Session>>(System.IO.File.ReadAllText(sessionPath)) ?? new();
-
             var session = sessions.FirstOrDefault(s => s.Token == token && s.ExpiresAt > DateTime.UtcNow);
             if (session == null)
                 return Unauthorized("Invalid or expired session");
@@ -164,7 +151,7 @@ namespace TravelGuiderAPI.Controllers
 
             var userTrips = savedTrips
                 .Where(t => t.Email == session.Email)
-                .OrderByDescending(t => t.Id) // sorting latest first based on ID (since ID is Guid)
+                .OrderByDescending(t => t.Id)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
                 .ToList();
@@ -177,7 +164,6 @@ namespace TravelGuiderAPI.Controllers
                 Trips = userTrips
             });
         }
-
 
         [HttpDelete("delete-saved-trip")]
         public IActionResult DeleteSavedTrip([FromQuery] string token, [FromQuery] string tripId)
@@ -203,7 +189,7 @@ namespace TravelGuiderAPI.Controllers
         }
 
         [HttpPut("update-saved-trip")]
-        public IActionResult UpdateSavedTrip([FromQuery] string token, [FromQuery] string tripId, [FromBody] UpdateTripRequest request)
+        public IActionResult UpdateSavedTrip([FromQuery] string token, [FromQuery] string tripId, [FromBody] TripPlan updatedTrip)
         {
             var sessionPath = Path.Combine(_env.ContentRootPath, "Data/sessions.json");
             var tripPath = Path.Combine(_env.ContentRootPath, "Data/savedTrips.json");
@@ -219,97 +205,15 @@ namespace TravelGuiderAPI.Controllers
             if (tripToUpdate == null)
                 return NotFound("Trip not found");
 
-            // Regenerate trip based on new input
-            var generatedTrip = GenerateTripFromRequest(request);
-            tripToUpdate.Trip = generatedTrip;
+            tripToUpdate.Trip = updatedTrip;
+            tripToUpdate.Budget = updatedTrip.Budget;
+            tripToUpdate.StayType = updatedTrip.StayType;
+            tripToUpdate.StartDate = updatedTrip.StartDate;
+            tripToUpdate.EndDate = updatedTrip.EndDate;
 
             System.IO.File.WriteAllText(tripPath, JsonConvert.SerializeObject(savedTrips, Formatting.Indented));
 
             return Ok("Trip updated successfully");
         }
-
-        private TripPlan GenerateTripFromRequest(UpdateTripRequest request)
-        {
-            var filePath = Path.Combine(_env.ContentRootPath, "Data/places.json");
-            var json = System.IO.File.ReadAllText(filePath);
-            var data = JsonConvert.DeserializeObject<PlaceData>(json);
-
-            var placeInfo = data.Places.FirstOrDefault(p =>
-                string.Equals(p.Name, request.Place, StringComparison.OrdinalIgnoreCase));
-
-            if (placeInfo == null)
-                throw new Exception("Place not found");
-
-            if (!placeInfo.Stays.ContainsKey(request.StayType))
-                throw new Exception($"Stay type '{request.StayType}' not available");
-
-            var totalDays = (request.EndDate - request.StartDate).Days + 1;
-            var totalLocations = placeInfo.Locations.Count;
-
-            var itinerary = new List<ItineraryItem>();
-
-            for (int i = 0; i < totalDays; i++)
-            {
-                var day = request.StartDate.AddDays(i);
-
-                // Add actual locations first
-                if (i < totalLocations)
-                {
-                    var location = placeInfo.Locations[i];
-                    itinerary.Add(new ItineraryItem
-                    {
-                        Date = day.ToString("yyyy-MM-dd"),
-                        Visit = location.Name,
-                        Address = location.Location,
-                        Photo = location.Photo,
-                        Meal = new Meal
-                        {
-                            Breakfast = "Local Dhaba",
-                            Lunch = "Recommended Restaurant",
-                            Dinner = "Hotel Restaurant"
-                        },
-                        Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
-                        Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
-                        Dress = placeInfo.Dress_Recommendation
-                    });
-                }
-                else
-                {
-                    // Add a single entry for remaining days
-                    itinerary.Add(new ItineraryItem
-                    {
-                        Date = day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd"),
-                        Visit = "Revisit previous places or leisure day",
-                        Address = "Free day for local exploration",
-                        Photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png",
-                        Meal = new Meal
-                        {
-                            Breakfast = "Local Dhaba",
-                            Lunch = "Recommended Restaurant",
-                            Dinner = "Hotel Restaurant"
-                        },
-                        Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
-                        Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
-                        Dress = placeInfo.Dress_Recommendation
-                    });
-                    break; // Stop loop after adding the leisure day
-                }
-            }
-
-            return new TripPlan
-            {
-                Place = request.Place,
-                Days = totalDays,
-                Itinerary = itinerary
-            };
-        }
-
-
-
-
-
-
-
     }
-
 }
