@@ -76,7 +76,9 @@ namespace TravelGuiderAPI.Controllers
                 {
                     itinerary.Add(new ItineraryItem
                     {
-                        Date = day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd"),
+                        Date = day < request.EndDate
+                ? day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd")
+                : request.EndDate.ToString("yyyy-MM-dd"),
                         Visit = "Revisit previous places or leisure day",
                         Address = "Free day for local exploration",
                         Photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png",
@@ -265,7 +267,9 @@ namespace TravelGuiderAPI.Controllers
                 {
                     itinerary.Add(new ItineraryItem
                     {
-                        Date = day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd"),
+                        Date = day < request.EndDate
+                ? day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd")
+                : request.EndDate.ToString("yyyy-MM-dd"),
                         Visit = "Revisit previous places or leisure day",
                         Address = "Free day for local exploration",
                         Photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png",
