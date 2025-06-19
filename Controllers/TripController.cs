@@ -247,44 +247,52 @@ namespace TravelGuiderAPI.Controllers
             var totalLocations = placeInfo.Locations.Count;
 
             var itinerary = new List<ItineraryItem>();
-            bool leisureDayAdded = false; // Flag to ensure leisure day is added only once
 
             for (int i = 0; i < totalDays; i++)
             {
                 var day = request.StartDate.AddDays(i);
-                string visit, address, photo;
 
+                // Add actual locations first
                 if (i < totalLocations)
                 {
-                    // Normal location visit
                     var location = placeInfo.Locations[i];
-                    visit = location.Name;
-                    address = location.Location;
-                    photo = location.Photo;
-                }
-                else if (!leisureDayAdded)
-                {
-                    // Add only once when we exceed location count
-                    visit = "Revisit previous places or leisure day";
-                    address = "Free day for local exploration";
-                    photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png";
-
                     itinerary.Add(new ItineraryItem
                     {
-                        Date = day.ToString("yyyy-MM-dd") + (day.Date < request.EndDate.Date
-                            ? " To " + request.EndDate.ToString("yyyy-MM-dd")
-                            : ""),
-                        Visit = visit,
-                        Address = address,
-                        Photo = photo,
-                        Meal = new Meal { Breakfast = "Local Dhaba", Lunch = "Recommended Restaurant", Dinner = "Hotel Restaurant" },
+                        Date = day.ToString("yyyy-MM-dd"),
+                        Visit = location.Name,
+                        Address = location.Location,
+                        Photo = location.Photo,
+                        Meal = new Meal
+                        {
+                            Breakfast = "Local Dhaba",
+                            Lunch = "Recommended Restaurant",
+                            Dinner = "Hotel Restaurant"
+                        },
                         Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
                         Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
                         Dress = placeInfo.Dress_Recommendation
                     });
-
-                    leisureDayAdded = true;
-                    break; // Stop the loop after adding leisure day
+                }
+                else
+                {
+                    // Add a single entry for remaining days
+                    itinerary.Add(new ItineraryItem
+                    {
+                        Date = day.ToString("yyyy-MM-dd") + " To " + request.EndDate.ToString("yyyy-MM-dd"),
+                        Visit = "Revisit previous places or leisure day",
+                        Address = "Free day for local exploration",
+                        Photo = "https://res.cloudinary.com/diutdhsh3/image/upload/v1749920097/freeday_w24k3l.png",
+                        Meal = new Meal
+                        {
+                            Breakfast = "Local Dhaba",
+                            Lunch = "Recommended Restaurant",
+                            Dinner = "Hotel Restaurant"
+                        },
+                        Stay = placeInfo.Stays[request.StayType].FirstOrDefault(),
+                        Transport = placeInfo.Transportation[i % placeInfo.Transportation.Count],
+                        Dress = placeInfo.Dress_Recommendation
+                    });
+                    break; // Stop loop after adding the leisure day
                 }
             }
 
@@ -295,6 +303,8 @@ namespace TravelGuiderAPI.Controllers
                 Itinerary = itinerary
             };
         }
+
+
 
 
 
