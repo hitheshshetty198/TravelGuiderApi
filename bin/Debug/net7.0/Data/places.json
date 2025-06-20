@@ -60,6 +60,152 @@
       "dress_recommendation": "Light cotton clothes in summer, Woolens in winter"
     },
     {
+      "name": "Arunachal Pradesh",
+      "category": [
+        "Nature",
+        "Hills",
+        "Culture"
+      ],
+      "best_months": [
+        "March",
+        "April",
+        "October",
+        "November"
+      ],
+      "locations": [
+        {
+          "name": "Tawang Monastery",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440688/Tawang_Monastery_ek2b87.jpg",
+          "location": "Tawang",
+          "timing": "8AM - 5PM daily",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Jaswant Garh"
+          ]
+        },
+        {
+          "name": "Ziro Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440688/Ziro-valley_tuqxou.avif",
+          "location": "Lower Subansiri",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [
+            "Talley Valley Sanctuary"
+          ]
+        },
+        {
+          "name": "Namdapha National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440686/Namdapha_iqleky.jpg",
+          "location": "Changlang",
+          "timing": "6AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [
+            "Miao"
+          ]
+        },
+        {
+          "name": "Sangti Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440688/Sangti_Valley_bzou6c.webp",
+          "location": "West Kameng",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [
+            "Bomdila"
+          ]
+        },
+        {
+          "name": "Bomdila Monastery",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440686/Bomdila_Monastery_ualvoi.jpg",
+          "location": "Bomdila",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [
+            "Apple Orchards"
+          ]
+        },
+        {
+          "name": "Mechuka Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440688/Mechuka_Valley_rmvfyx.jpg",
+          "location": "Shi-Yomi",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [
+            "Bhismaknagar Fort"
+          ]
+        },
+        {
+          "name": "Parashuram Kund",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440687/Parashuram_Kund_i8ave0.jpg",
+          "location": "Lohit district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [
+            "Mayudia Hot Spring"
+          ]
+        },
+        {
+          "name": "Itanagar Wildlife Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440688/Itanagar_Wildlife_hn5lok.jpg",
+          "location": "Itanagar",
+          "timing": "6AM - 5PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Ganga Lake"
+          ]
+        },
+        {
+          "name": "Hayuliang",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440687/Hayuliang_fgxkmd.jpg",
+          "location": "Anjaw",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [
+            "Udanta Forest"
+          ]
+        },
+        {
+          "name": "Bhismaknagar Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750440686/Bhismaknagar_Fort_cticx1.jpg",
+          "location": "Mechuka",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Mechuka River"
+          ]
+        }
+      ],
+      "stays": {
+        "3_star": [
+          "City River View",
+          "Arunachal Retreat"
+        ],
+        "4_star": [
+          "Hotel Donyi Polo",
+          "Hotel Mechuka"
+        ],
+        "5_star": [
+          "Orange Retreat",
+          "Arun Resort"
+        ]
+      },
+      "transportation": [
+        "Shared Jeep",
+        "Trek",
+        "Cab"
+      ],
+      "dress_recommendation": "Layered clothing; beanies and gloves"
+    },
+    {
       "name": "Karnataka",
       "category": [
         "Heritage",
@@ -83,7 +229,7 @@
           "estimated_visit_time_hours": 3,
           "nearby_places": [
             "Chamundi Hill",
-            "St. Philomena\u2019s Church"
+            "St. Philomena Church"
           ]
         },
         {

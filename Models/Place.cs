@@ -7,7 +7,7 @@
         public string Location { get; set; }
         public string Timing { get; set; }
         public decimal Ticket_Price { get; set; }
-        public int Estimated_Visit_Time_Hours { get; set; }
+        public double Estimated_Visit_Time_Hours { get; set; }
         public List<string> Nearby_Places { get; set; }
     }
 
