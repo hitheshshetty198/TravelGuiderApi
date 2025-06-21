@@ -29,7 +29,7 @@ namespace TravelGuiderAPI.Controllers
             var json = System.IO.File.ReadAllText(path);
             var data = JsonConvert.DeserializeObject<PlaceData>(json);
 
-            // First, try finding by place/state name
+            // 1. Try to find by place/state name
             var place = data.Places.FirstOrDefault(p =>
                 p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
 
@@ -59,23 +59,32 @@ namespace TravelGuiderAPI.Controllers
 
                 return Ok(new
                 {
-                    place.Name,
-                    place.Category,
-                    place.Best_Months,
-                    place.Locations,
-                    place.Stays,
-                    place.Transportation,
-                    place.Dress_Recommendation,
-                    Weather = new
+                    name = place.Name,
+                    category = place.Category,
+                    best_Months = place.Best_Months,
+                    locations = place.Locations.Select(loc => new
                     {
-                        Temperature = temperature,
-                        Condition = condition,
-                        Suggestion = suggestion
+                        name = loc.Name,
+                        photo = loc.Photo,
+                        location = loc.Location,
+                        timing = loc.Timing,
+                        ticket_Price = loc.Ticket_Price,
+                        estimated_Visit_Time_Hours = loc.Estimated_Visit_Time_Hours,
+                        nearby_Places = loc.Nearby_Places
+                    }).ToList(),
+                    stays = place.Stays,
+                    transportation = place.Transportation,
+                    dress_Recommendation = place.Dress_Recommendation,
+                    weather = new
+                    {
+                        temperature,
+                        condition,
+                        suggestion
                     }
                 });
             }
 
-            // If not found by place name, try by location inside any place
+            // 2. Try to find by a location inside a place
             place = data.Places.FirstOrDefault(p =>
                 p.Locations.Any(loc => loc.Name.Equals(name, StringComparison.OrdinalIgnoreCase)));
 
@@ -86,7 +95,6 @@ namespace TravelGuiderAPI.Controllers
 
                 string city = place.Name;
 
-                // Weather by city
                 string apiKey = _config["OpenWeatherMap:ApiKey"];
                 string url = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric";
 
@@ -110,23 +118,30 @@ namespace TravelGuiderAPI.Controllers
 
                 return Ok(new
                 {
-                    PlaceName = name,
-                    NearbyPlaces = location.Nearby_Places,
-                    place.Best_Months,
-                    place.Stays,
-                    place.Transportation,
-                    place.Dress_Recommendation,
-                    Weather = new
+                    name = location.Name,
+                    photo = location.Photo,
+                    location = location.Location,
+                    timing = location.Timing,
+                    ticket_Price = location.Ticket_Price,
+                    estimated_Visit_Time_Hours = location.Estimated_Visit_Time_Hours,
+                    nearby_Places = location.Nearby_Places,
+                    best_Months = place.Best_Months,
+                    stays = place.Stays,
+                    transportation = place.Transportation,
+                    dress_Recommendation = place.Dress_Recommendation,
+                    weather = new
                     {
-                        Temperature = temperature,
-                        Condition = condition,
-                        Suggestion = suggestion
+                        temperature,
+                        condition,
+                        suggestion
                     }
                 });
             }
 
             return NotFound("Place or location not found");
         }
+
+
 
 
         [HttpGet("search-by-place")]
