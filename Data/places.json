@@ -1,64 +1,6 @@
 {
   "places": [
-    {
-      "name": "Delhi",
-      "category": [
-        "Historical",
-        "Sightseeing"
-      ],
-      "best_months": [
-        "October",
-        "November",
-        "February",
-        "March"
-      ],
-      "locations": [
-        {
-          "name": "Red Fort",
-          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449975/RedFort_fg0mbc.webp",
-          "location": "Netaji Subhash Marg, Delhi",
-          "timing": "9:30 AM - 4:30 PM",
-          "ticket_price": 50,
-          "estimated_visit_time_hours": 2,
-          "nearby_places": [
-            "Jama Masjid",
-            "Chandni Chowk"
-          ]
-        },
-        {
-          "name": "India Gate",
-          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/IndiaGate_luaqxh.webp",
-          "location": "Rajpath, Delhi",
-          "timing": "Open 24 hours",
-          "ticket_price": 0,
-          "estimated_visit_time_hours": 1,
-          "nearby_places": [
-            "Rashtrapati Bhavan",
-            "National Museum"
-          ]
-        }
-      ],
-      "stays": {
-        "3_star": [
-          "Hotel A",
-          "Hotel B"
-        ],
-        "4_star": [
-          "Hotel C",
-          "Hotel D"
-        ],
-        "5_star": [
-          "Hotel E",
-          "Hotel F"
-        ]
-      },
-      "transportation": [
-        "Metro",
-        "Auto",
-        "Cab"
-      ],
-      "dress_recommendation": "Light cotton clothes in summer, Woolens in winter"
-    },
+   
     {
       "name": "Arunachal Pradesh",
       "category": [
@@ -206,11 +148,12 @@
       "dress_recommendation": "Layered clothing; beanies and gloves"
     },
     {
-      "name": "Karnataka",
+      "name": "Andhra Pradesh",
       "category": [
-        "Heritage",
-        "Temples",
-        "Nature"
+        "Nature",
+        "Hills",
+        "Culture",
+        "Spiritual"
       ],
       "best_months": [
         "October",
@@ -221,171 +164,2916 @@
       ],
       "locations": [
         {
-          "name": "Mysore Palace",
-          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/MysorePalace_uolwyk.webp",
-          "location": "Mysuru, Karnataka",
-          "timing": "10:00 AM - 5:30 PM",
-          "ticket_price": 70,
+          "name": "Tirupati Balaji Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443630/Tirupati_Balaji_Temple_iqzwd9.jpg",
+          "location": "Tirumala",
+          "timing": "4AM - 9PM daily",
+          "ticket_price": 300,
           "estimated_visit_time_hours": 3,
           "nearby_places": [
-            "Chamundi Hill",
-            "St. Philomena Church"
+            "Sri Vari Museum",
+            "Silathoranam"
           ]
         },
         {
-          "name": "Hampi",
-          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/Hampi_poegrm.webp",
-          "location": "Hampi, Karnataka",
-          "timing": "6:00 AM - 6:00 PM",
-          "ticket_price": 30,
-          "estimated_visit_time_hours": 4,
+          "name": "Araku Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443624/Araku_Valley_crk0pd.jpg",
+          "location": "Visakhapatnam district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 5,
           "nearby_places": [
-            "Virupaksha Temple",
-            "Lotus Mahal"
+            "Padmapuram Gardens",
+            "Tribal Museum"
+          ]
+        },
+        {
+          "name": "Borra Caves",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443624/Borra_Caves_mzqr67.webp",
+          "location": "Ananthagiri Hills",
+          "timing": "10AM - 5PM",
+          "ticket_price": 60,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Katiki Waterfalls"
+          ]
+        },
+        {
+          "name": "Lepakshi Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443625/Lepakshi_Temple_euqyaz.jpg",
+          "location": "Anantapur district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Veerabhadra Temple",
+            "Hanging Pillar"
+          ]
+        },
+        {
+          "name": "Gandikota Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443624/Gandikota_ir7wcy.jpg",
+          "location": "Kadapa district",
+          "timing": "8AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [
+            "Pennar River Gorge",
+            "Belum Caves"
+          ]
+        },
+        {
+          "name": "Belum Caves",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443624/Belum_Caves_dug3hs.jpg",
+          "location": "Kurnool district",
+          "timing": "10AM - 5PM",
+          "ticket_price": 65,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Yaganti Temple"
+          ]
+        },
+        {
+          "name": "Kondapalli Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443625/Kondapalli_Fort_vjb5hg.jpg",
+          "location": "Krishna district",
+          "timing": "10AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Kondapalli Toy Village"
+          ]
+        },
+        {
+          "name": "Papikondalu",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443625/Papikondalu_dgkdxq.jpg",
+          "location": "Godavari River",
+          "timing": "Day cruises available",
+          "ticket_price": 500,
+          "estimated_visit_time_hours": 6,
+          "nearby_places": [
+            "Perantapalli",
+            "Polavaram"
+          ]
+        },
+        {
+          "name": "Kailasagiri",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443624/Kailasagiri_jghrsw.jpg",
+          "location": "Visakhapatnam",
+          "timing": "10AM - 8PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "RK Beach",
+            "Submarine Museum"
+          ]
+        },
+        {
+          "name": "Sri Venkateswara National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750443625/Sri_Venkateswara_National_Park_wgiubm.jpg",
+          "location": "Chittoor district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [
+            "Talakona Waterfall"
           ]
         }
       ],
       "stays": {
         "3_star": [
-          "Hotel G",
-          "Hotel H"
+          "Hotel Araku Valley View",
+          "Tirupati Residency"
         ],
         "4_star": [
-          "Hotel I",
-          "Hotel J"
+          "Fortune Murali Park",
+          "Daspalla Visakhapatnam"
         ],
         "5_star": [
-          "Hotel K",
-          "Hotel L"
+          "The Gateway Hotel Vijayawada",
+          "Novotel Vizag"
         ]
       },
       "transportation": [
+        "Train",
         "Bus",
         "Cab",
-        "Bike"
+        "Ropeway",
+        "Boat"
       ],
-      "dress_recommendation": "Comfortable clothes and walking shoes"
+      "dress_recommendation": "Light cotton clothes for plains; light woollens for hill areas like Araku"
     },
     {
-      "name": "Kerala",
+      "name": "Assam",
       "category": [
-        "Beach",
-        "Backwaters",
-        "Nature"
+        "Nature",
+        "Wildlife",
+        "Culture",
+        "Spiritual"
       ],
       "best_months": [
         "November",
         "December",
         "January",
-        "February"
-      ],
-      "locations": [
-        {
-          "name": "Alleppey Backwaters",
-          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/AlleppeyBackwaters_wuuxye.webp",
-          "location": "Alleppey, Kerala",
-          "timing": "24 hours (Houseboats)",
-          "ticket_price": 1000,
-          "estimated_visit_time_hours": 5,
-          "nearby_places": [
-            "Vembanad Lake",
-            "Kumarakom"
-          ]
-        },
-        {
-          "name": "Munnar",
-          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449975/Munnar_kyhn5p.webp",
-          "location": "Munnar, Kerala",
-          "timing": "6:00 AM - 6:00 PM",
-          "ticket_price": 0,
-          "estimated_visit_time_hours": 6,
-          "nearby_places": [
-            "Tea Museum",
-            "Echo Point"
-          ]
-        }
-      ],
-      "stays": {
-        "3_star": [
-          "Hotel M",
-          "Hotel N"
-        ],
-        "4_star": [
-          "Hotel O",
-          "Hotel P"
-        ],
-        "5_star": [
-          "Hotel Q",
-          "Hotel R"
-        ]
-      },
-      "transportation": [
-        "Boat",
-        "Cab",
-        "Rickshaw"
-      ],
-      "dress_recommendation": "Light clothes, raincoat if monsoon"
-    },
-    {
-      "name": "Maharashtra",
-      "category": [
-        "Cultural",
-        "Hills",
-        "Temples"
-      ],
-      "best_months": [
-        "September",
-        "October",
-        "November",
         "February",
         "March"
       ],
       "locations": [
         {
-          "name": "Gateway of India",
-          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/GatewayOfIndia_xmfeex.webp",
-          "location": "Mumbai, Maharashtra",
-          "timing": "Open 24 hours",
-          "ticket_price": 0,
-          "estimated_visit_time_hours": 1,
+          "name": "Kaziranga National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444907/Kaziranga_National_Park_i75djl.jpg",
+          "location": "Golaghat & Nagaon districts",
+          "timing": "7AM - 4PM (Nov-Apr)",
+          "ticket_price": 100,
+          "estimated_visit_time_hours": 5,
           "nearby_places": [
-            "Elephanta Caves",
-            "Taj Mahal Hotel"
+            "Hoollongapar Gibbon Sanctuary"
           ]
         },
         {
-          "name": "Ajanta Caves",
-          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1749449974/AjantaCaves_tiq0ou.webp",
-          "location": "Aurangabad, Maharashtra",
-          "timing": "9:00 AM - 5:00 PM",
-          "ticket_price": 40,
+          "name": "Majuli Island",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444907/Majuli_Island_atyi8o.jpg",
+          "location": "Brahmaputra River",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [
+            "Auniati Satra",
+            "Samaguri Satra"
+          ]
+        },
+        {
+          "name": "Kamakhya Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444908/Kamakhya_Temple_j0p3e7.jpg",
+          "location": "Nilachal Hill, Guwahati",
+          "timing": "5:30AM - 10PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Umananda Temple"
+          ]
+        },
+        {
+          "name": "Manas National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444908/manas_park_riwpvi.webp",
+          "location": "Barpeta district",
+          "timing": "6AM - 3PM (Oct-May)",
+          "ticket_price": 100,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [
+            "Chakrashila Wildlife Sanctuary"
+          ]
+        },
+        {
+          "name": "Sivasagar",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444908/Sivasagar_q26dlc.webp",
+          "location": "Sivasagar district",
+          "timing": "9AM - 6PM",
+          "ticket_price": 30,
           "estimated_visit_time_hours": 3,
           "nearby_places": [
-            "Ellora Caves",
-            "Bibi Ka Maqbara"
+            "Rang Ghar",
+            "Talatal Ghar"
+          ]
+        },
+        {
+          "name": "Dipor Bil",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444907/Dipor_Bil_rvmjik.jpg",
+          "location": "Near Guwahati",
+          "timing": "6AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Basistha Ashram"
+          ]
+        },
+        {
+          "name": "Hajo",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444907/Hajo_yf1vtv.jpg",
+          "location": "Kamrup district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Hayagriva Madhava Temple",
+            "Powa Mecca"
+          ]
+        },
+        {
+          "name": "Umananda Island",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444910/Umananda_xdhr65.webp",
+          "location": "Brahmaputra River, Guwahati",
+          "timing": "6AM - 5PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [
+            "Kamakhya Temple"
+          ]
+        },
+        {
+          "name": "Tezpur",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444909/Tezpur_eszglf.jpg",
+          "location": "Sonitpur district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [
+            "Agnigarh",
+            "Mahabhairab Temple"
+          ]
+        },
+        {
+          "name": "Orang National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750444908/Orang_National_Park_pydrct.jpg",
+          "location": "Darrang & Sonitpur districts",
+          "timing": "7AM - 4PM (Nov-Apr)",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [
+            "Tezpur"
           ]
         }
       ],
       "stays": {
         "3_star": [
-          "Hotel S",
-          "Hotel T"
+          "Hotel Siroy Lily",
+          "Hotel Pragati Manor"
         ],
         "4_star": [
-          "Hotel U",
-          "Hotel V"
+          "Radisson Blu Guwahati",
+          "Hotel Dynasty"
         ],
         "5_star": [
-          "Hotel W",
-          "Hotel X"
+          "Vivanta Guwahati",
+          "Novotel Guwahati"
         ]
       },
       "transportation": [
         "Train",
         "Cab",
-        "Local Bus"
+        "Bus",
+        "Boat",
+        "Cycle Rickshaw"
       ],
-      "dress_recommendation": "Casual wear, hat and sunglasses for daytime"
+      "dress_recommendation": "Cotton clothes during summer; light woolens for winter mornings"
+    },
+    {
+      "name": "Bihar",
+      "category": [ "History", "Spiritual", "Culture", "Wildlife" ],
+      "best_months": [ "October", "November", "December", "January", "February" ],
+      "locations": [
+        {
+          "name": "Bodh Gaya",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445727/Bodh_Gaya_oceucx.avif",
+          "location": "Gaya district",
+          "timing": "4AM - 9PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Mahabodhi Temple", "Great Buddha Statue" ]
+        },
+        {
+          "name": "Nalanda University Ruins",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445728/Nalanda_University_Ruins_n3rjr5.jpg",
+          "location": "Nalanda district",
+          "timing": "7AM - 6PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Nalanda Archaeological Museum" ]
+        },
+        {
+          "name": "Rajgir",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445729/Rajgir_eflnbe.webp",
+          "location": "Nalanda district",
+          "timing": "All day",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Vishwa Shanti Stupa", "Ghora Katora Lake" ]
+        },
+        {
+          "name": "Vaishali",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445730/Vaishali_sahkrz.jpg",
+          "location": "Vaishali district",
+          "timing": "7AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Ashoka Pillar", "Vishwa Shanti Stupa" ]
+        },
+        {
+          "name": "Patna",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445728/Patna_am2h5r.webp",
+          "location": "Patna",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Golghar", "Patna Museum" ]
+        },
+        {
+          "name": "Bhagalpur",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445727/Bhagalpur_vpfxtq.webp",
+          "location": "Bhagalpur district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Vikramshila Ruins", "Dolphin Sanctuary" ]
+        },
+        {
+          "name": "Valmiki National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445731/Valmiki_gpszda.jpg",
+          "location": "West Champaran district",
+          "timing": "10AM - 5PM",
+          "ticket_price": 350,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [ "Valmiki Tiger Reserve" ]
+        },
+        {
+          "name": "Kesaria Stupa",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445727/Kesaria_cpjnxs.jpg",
+          "location": "East Champaran district",
+          "timing": "7AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Kesaria Market" ]
+        },
+        {
+          "name": "Gaya (Vishnupad Temple)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445732/Vishnupad_qearwj.jpg",
+          "location": "Gaya district",
+          "timing": "5AM - 8PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Phalgu River", "Falgu Ghats" ]
+        },
+        {
+          "name": "Simaria Ghat",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750445729/Simaria_Ghat_jfkqzh.jpg",
+          "location": "Begusarai district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Ganga River bank" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Chanakya Patna", "Nalanda Regency" ],
+        "4_star": [ "Hotel Maurya Patna", "The Chanakya Resort Rajgir" ],
+        "5_star": [ "Hotel Clarks Patna", "Gaya Marriott Resort" ]
+      },
+      "transportation": [ "Train", "Bus", "Cab", "Boat", "Cycle Rickshaw", "Electric Rickshaw" ],
+      "dress_recommendation": "Light cotton in summer; warm layers in winter, especially near Gaya/Rajgir."
+    },
+    {
+      "name": "Chhattisgarh",
+      "category": [ "Nature", "Waterfalls", "Culture", "History" ],
+      "best_months": [ "October", "November", "December", "January", "February" ],
+      "locations": [
+        {
+          "name": "Chitrakote Waterfalls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446383/Chitrakote_jr6ogp.jpg",
+          "location": "Bastar district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Tirathgarh Falls", "Kanger Valley National Park" ]
+        },
+        {
+          "name": "Tirathgarh Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446389/Tirathgarh_apxwes.jpg",
+          "location": "Kanger Valley National Park",
+          "timing": "6AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Kailash Caves", "Kotumsar Caves" ]
+        },
+        {
+          "name": "Kanger Valley National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446384/Kanger_Valley_National_Park_iuesnm.jpg",
+          "location": "Bastar district",
+          "timing": "7AM - 6PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Tirathgarh Falls", "Kotumsar Caves" ]
+        },
+        {
+          "name": "Barnawapara Wildlife Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446382/Barnawapara_Wildlife_Sanctuary_haq5vl.webp",
+          "location": "Mahasamund district",
+          "timing": "6AM - 5PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Sirpur" ]
+        },
+        {
+          "name": "Sirpur",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446394/Sirpur_tbi5ad.jpg",
+          "location": "Mahasamund district",
+          "timing": "8AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Lakshman Temple", "Barnawapara Sanctuary" ]
+        },
+        {
+          "name": "Bhoramdeo Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446382/Bhoramdeo_ezjvzk.jpg",
+          "location": "Kawardha",
+          "timing": "6AM - 8PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Bhoramdeo Wildlife Sanctuary" ]
+        },
+        {
+          "name": "Dongargarh",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446385/Dongargarh_zkfyks.jpg",
+          "location": "Rajnandgaon district",
+          "timing": "6AM - 8PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Bambleshwari Temple" ]
+        },
+        {
+          "name": "Mainpat",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446387/Mainpat_fhqwlp.webp",
+          "location": "Surguja district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Tiger Point", "Ulta Pani" ]
+        },
+        {
+          "name": "Kotumsar Caves",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446385/Kotumsar_jodp82.jpg",
+          "location": "Bastar district",
+          "timing": "7AM - 6PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Tirathgarh Falls" ]
+        },
+        {
+          "name": "Rajim",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750446387/Rajim_md6izh.jpg",
+          "location": "Gariaband district",
+          "timing": "6AM - 7PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Rajiv Lochan Temple", "Kuleshwar Temple" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Babylon Inn Raipur", "Hotel Ananya Raipur" ],
+        "4_star": [ "Courtyard by Marriott Raipur", "Hotel VW Canyon" ],
+        "5_star": [ "Hotel Babylon International", "Hotel Sayaji Raipur" ]
+      },
+      "transportation": [ "Train", "Bus", "Cab", "Auto-rickshaw", "Jeep" ],
+      "dress_recommendation": "Comfortable cotton in summer, light woolens in winter especially in Mainpat and forest areas"
+    },
+    {
+      "name": "Goa",
+      "category": [ "Beaches", "Culture", "Nightlife", "Nature", "Heritage" ],
+      "best_months": [ "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Calangute Beach",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447124/Calangute_lxyqux.jpg",
+          "location": "North Goa",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Baga Beach", "Candolim Beach" ]
+        },
+        {
+          "name": "Basilica of Bom Jesus",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447124/Basilica_etfvoi.jpg",
+          "location": "Old Goa",
+          "timing": "9AM - 6:30PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Se Cathedral", "Church of St. Francis of Assisi" ]
+        },
+        {
+          "name": "Fort Aguada",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447129/Fort_Aguada_Goa_oxi0ig.jpg",
+          "location": "Candolim",
+          "timing": "9AM - 6PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "SinQ Nightclub", "Aguada Jail" ]
+        },
+        {
+          "name": "Dudhsagar Waterfalls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447127/Dudhsagar_nxm1rc.jpg",
+          "location": "South Goa (near Mollem)",
+          "timing": "7AM - 5PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Bhagwan Mahavir Sanctuary" ]
+        },
+        {
+          "name": "Anjuna Flea Market",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447123/Anjuna_hdqzr7.jpg",
+          "location": "Anjuna Beach",
+          "timing": "Wednesday, 9AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Anjuna Beach", "Chapora Fort" ]
+        },
+        {
+          "name": "Chapora Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447126/Chapora_xymnml.webp",
+          "location": "Vagator",
+          "timing": "8AM - 5:30PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Vagator Beach" ]
+        },
+        {
+          "name": "Palolem Beach",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447131/Palolem_jipsol.jpg",
+          "location": "South Goa",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Butterfly Beach", "Canacona" ]
+        },
+        {
+          "name": "Fontainhas Latin Quarter",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447128/Fontainhas_lb4xjt.jpg",
+          "location": "Panaji",
+          "timing": "All day (walking tour recommended in morning/evening)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Panaji Church", "Mandovi River" ]
+        },
+        {
+          "name": "Bhagwan Mahavir Wildlife Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447124/Bhagwan_Mahavir_igejyg.jpg",
+          "location": "Mollem",
+          "timing": "8AM - 5PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Tambdi Surla Temple", "Dudhsagar Falls" ]
+        },
+        {
+          "name": "Miramar Beach",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750447129/miramar_jozvex.jpg",
+          "location": "Panaji",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Dona Paula View Point", "Goa Science Centre" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Casa De Goa", "Acron Candolim Regina" ],
+        "4_star": [ "Taj Fort Aguada", "Novotel Goa Resort" ],
+        "5_star": [ "The Leela Goa", "Grand Hyatt Goa" ]
+      },
+      "transportation": [ "Scooter Rental", "Cab", "Bus", "Boat", "Ferry" ],
+      "dress_recommendation": "Beachwear with light cotton; carry sunscreen and flip-flops"
+    },
+    {
+      "name": "Gujarat",
+      "category": [ "Culture", "Heritage", "Wildlife", "Desert", "Spiritual" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Statue of Unity",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448680/Statue_of_Unity_v6xtjl.webp",
+          "location": "Kevadia, Narmada District",
+          "timing": "8AM - 6PM (Closed Mondays)",
+          "ticket_price": 150,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Sardar Sarovar Dam", "Valley of Flowers" ]
+        },
+        {
+          "name": "Gir National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448664/Gir_National_Park_whescv.jpg",
+          "location": "Junagadh district",
+          "timing": "6AM - 12PM & 3PM - 6PM (Oct–June)",
+          "ticket_price": 800,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Devaliya Safari Park" ]
+        },
+        {
+          "name": "Rann of Kutch (White Desert)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448668/Rann_of_Kutch_cfvcdu.jpg",
+          "location": "Kutch district",
+          "timing": "6AM - 8PM (best during Rann Utsav)",
+          "ticket_price": 100,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Dhordo", "Kalo Dungar" ]
+        },
+        {
+          "name": "Dwarkadhish Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448664/Dwarkadhish_jrsvth.jpg",
+          "location": "Dwarka",
+          "timing": "6AM - 1PM, 5PM - 9:30PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Bet Dwarka", "Rukmini Temple" ]
+        },
+        {
+          "name": "Somnath Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448680/Somnath_qaueeu.jpg",
+          "location": "Prabhas Patan, Gir Somnath",
+          "timing": "6AM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Triveni Sangam", "Bhalka Tirth" ]
+        },
+        {
+          "name": "Saputara Hill Station",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448680/Saputara_slmuyt.jpg",
+          "location": "Dang district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Gira Waterfalls", "Sunset Point" ]
+        },
+        {
+          "name": "Champaner-Pavagadh Archaeological Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448663/Champaner_tcmtar.jpg",
+          "location": "Panchmahal district",
+          "timing": "8:30AM - 5PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Pavagadh Hill", "Kalika Mata Temple" ]
+        },
+        {
+          "name": "Laxmi Vilas Palace",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448665/Laxmi_Vilas_uejth1.jpg",
+          "location": "Vadodara",
+          "timing": "10AM - 5PM (Closed Mondays)",
+          "ticket_price": 200,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Sayaji Garden", "Baroda Museum" ]
+        },
+        {
+          "name": "Great Rann of Kutch Wildlife Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448664/Great_Rann_of_Kutch_hwoktu.jpg",
+          "location": "Kutch district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Narayan Sarovar Sanctuary" ]
+        },
+        {
+          "name": "Modhera Sun Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750448666/Modhera_Sun_avdrd7.jpg",
+          "location": "Mehsana district",
+          "timing": "8AM - 6PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Rani Ki Vav (Patan)" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Express Tower Vadodara", "Hotel Harmony Rajkot" ],
+        "4_star": [ "Regenta Central Rajkot", "The Grand Bhagwati Ahmedabad" ],
+        "5_star": [ "Taj Skyline Ahmedabad", "Hyatt Regency Ahmedabad" ]
+      },
+      "transportation": [ "Train", "Cab", "Bus", "Auto-rickshaw", "Rental Car" ],
+      "dress_recommendation": "Cotton clothes in summer, light woolens in winter, covered clothing for temple visits"
+    },
+    {
+      "name": "Haryana",
+      "category": [ "Culture", "History", "Pilgrimage", "Nature", "Wildlife" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Kurukshetra",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449500/kurukshetra1_xa9khk.jpg",
+          "location": "Kurukshetra district",
+          "timing": "6AM - 8PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Brahma Sarovar", "Jyotisar" ]
+        },
+        {
+          "name": "Sultanpur Bird Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449515/Sultanpur_Bird_Sanctuary_qugors.jpg",
+          "location": "Gurgaon district",
+          "timing": "7AM - 4:30PM (Closed Tuesdays)",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Leisure Valley Park", "Damdam Lake" ]
+        },
+        {
+          "name": "Pinjore Gardens",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449508/Pinjore_Gardens_nlfspo.jpg",
+          "location": "Panchkula district",
+          "timing": "7AM - 10PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Timber Trail", "Morni Hills" ]
+        },
+        {
+          "name": "Morni Hills",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449503/Morni_Hills_sphhee.jpg",
+          "location": "Panchkula district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Tikkar Taal", "Gurudwara Nada Sahib" ]
+        },
+        {
+          "name": "Brahma Sarovar",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449497/brahma_sarovar_yj0p4u.webp",
+          "location": "Kurukshetra",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Sannihit Sarovar", "Krishna Museum" ]
+        },
+        {
+          "name": "Rock Garden (Sector 29, Gurugram)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449512/Rock_Garden_ixlvl5.jpg",
+          "location": "Gurugram",
+          "timing": "9AM - 8PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Kingdom of Dreams", "Ambience Mall" ]
+        },
+        {
+          "name": "Yadavindra Gardens (Kalka)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449521/Yadavindra_Gardens_Pinjore_ypn7ac.jpg",
+          "location": "Pinjore",
+          "timing": "7AM - 9PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Bhima Devi Temple", "Haryana Tourism Museum" ]
+        },
+        {
+          "name": "Surajkund",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449518/Surajkund_brz0w6.jpg",
+          "location": "Faridabad",
+          "timing": "9AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Raja Nahar Singh Palace", "ISKCON Faridabad" ]
+        },
+        {
+          "name": "Panipat Museum",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449505/Panipat_c1g55t.avif",
+          "location": "Panipat",
+          "timing": "10AM - 5PM (Closed Mondays)",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Kabuli Bagh Mosque", "Panipat War Memorial" ]
+        },
+        {
+          "name": "Bhindawas Wildlife Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750449495/bhindawas-bird-sanctuary_twcdm2.jpg",
+          "location": "Jhajjar district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Sultanpur Bird Sanctuary" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Comfort Inn Gurgaon", "Hotel Pearl Kurukshetra" ],
+        "4_star": [ "Lemon Tree Hotel Chandigarh", "Park Plaza Faridabad" ],
+        "5_star": [ "The Oberoi Gurgaon", "Vivanta by Taj Surajkund" ]
+      },
+      "transportation": [ "Metro (Delhi NCR)", "Cab", "Bus", "Train", "Auto-rickshaw" ],
+      "dress_recommendation": "Light cotton in summer; carry woolens in winter (especially in Morni Hills)"
+    },
+    {
+      "name": "Himachal Pradesh",
+      "category": [ "Nature", "Hills", "Adventure", "Culture" ],
+      "best_months": [ "March", "April", "May", "September", "October" ],
+      "locations": [
+        {
+          "name": "Shimla",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450251/shimla_gev9dr.webp",
+          "location": "Shimla district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Mall Road", "Jakhu Temple", "Christ Church" ]
+        },
+        {
+          "name": "Manali",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450247/Manali_lwgnox.jpg",
+          "location": "Kullu district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Solang Valley", "Hadimba Temple" ]
+        },
+        {
+          "name": "Dharamshala",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450229/Dharamshala_y9ad7i.jpg",
+          "location": "Kangra district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "McLeod Ganj", "Dal Lake", "HPCA Stadium" ]
+        },
+        {
+          "name": "Dalhousie",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450227/Dalhousie_wgb0au.webp",
+          "location": "Chamba district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Khajjiar", "Panchpula" ]
+        },
+        {
+          "name": "Khajjiar",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450236/Khajjiar_aqm2hh.webp",
+          "location": "Chamba district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Dalhousie", "Kalatop Wildlife Sanctuary" ]
+        },
+        {
+          "name": "Spiti Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450254/Spiti_Valley_pft0pv.webp",
+          "location": "Lahaul and Spiti",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 6,
+          "nearby_places": [ "Kaza", "Key Monastery", "Chandratal Lake" ]
+        },
+        {
+          "name": "Kasol",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450233/kasol_kh9evb.webp",
+          "location": "Kullu district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Parvati Valley", "Manikaran" ]
+        },
+        {
+          "name": "Kullu",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450243/Kullu_h5cadz.webp",
+          "location": "Kullu district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Manali", "Bijli Mahadev Temple" ]
+        },
+        {
+          "name": "Kinnaur",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450240/Kinnaur_vlqypa.jpg",
+          "location": "Kinnaur district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Kalpa", "Sangla Valley" ]
+        },
+        {
+          "name": "Chamba",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750450223/Chamba_xdkqxw.jpg",
+          "location": "Chamba district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Chamunda Devi Temple", "Bhuri Singh Museum" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Shingar Shimla", "Hotel Kunzam Manali" ],
+        "4_star": [ "Apple Country Resort Manali", "Snow Valley Resorts Dalhousie" ],
+        "5_star": [ "Wildflower Hall Shimla", "The Oberoi Cecil Shimla" ]
+      },
+      "transportation": [ "Bus", "Cab", "Shared Jeep", "Bike Rental", "Toy Train (Shimla-Kalka)" ],
+      "dress_recommendation": "Woolens and jackets for all seasons; snow boots in winter areas"
+    },
+    {
+      "name": "Jharkhand",
+      "category": [ "Nature", "Waterfalls", "Temples", "Wildlife", "Culture" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Dassam Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487974/Dassam_aaob0f.jpg",
+          "location": "Near Ranchi",
+          "timing": "6AM - 6PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Jonha Falls", "Hirni Falls" ]
+        },
+        {
+          "name": "Hundru Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487974/Hundru_ptaqnr.jpg",
+          "location": "Ranchi",
+          "timing": "6AM - 6PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Rock Garden", "Ranchi Lake" ]
+        },
+        {
+          "name": "Netarhat",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487974/Netarhat_vi3jhn.jpg",
+          "location": "Latehar district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Upper Ghaghri Falls", "Magnolia Point" ]
+        },
+        {
+          "name": "Betla National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487974/Betla_National_Park_ezyr0n.jpg",
+          "location": "Palamu district",
+          "timing": "6AM - 4PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Palamu Fort", "Lodh Falls" ]
+        },
+        {
+          "name": "Baidhyanath Dham (Deoghar)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487973/Baidhyanath_Dham_Deoghar_cosxof.jpg",
+          "location": "Deoghar",
+          "timing": "4AM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Nandan Pahar", "Trikut Pahar" ]
+        },
+        {
+          "name": "Patratu Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487974/Patratu_Valley_uunyl6.jpg",
+          "location": "Ramgarh district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Patratu Dam", "Ramgarh Hills" ]
+        },
+        {
+          "name": "Jonha Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487973/Jonha_Falls_e25lhp.jpg",
+          "location": "Near Ranchi",
+          "timing": "6AM - 6PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Dassam Falls", "Sita Falls" ]
+        },
+        {
+          "name": "Jagannath Temple, Ranchi",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487976/Jagannath_Mandir_q0erlw.jpg",
+          "location": "Ranchi",
+          "timing": "6AM - 8PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Ranchi Hill", "Pahari Mandir" ]
+        },
+        {
+          "name": "Rock Garden & Kanke Dam",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487974/Rock_Garden_Ranchi_khotxs.jpg",
+          "location": "Ranchi",
+          "timing": "9AM - 8PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Tagore Hill", "Fun Castle Ranchi" ]
+        },
+        {
+          "name": "Trikut Hill",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750487975/Trikut_Hill_xqjcjc.jpg",
+          "location": "Deoghar",
+          "timing": "7AM - 5PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Rikhia Ashram", "Tapovan" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Raj Residency Ranchi", "Hotel Yuvraj Palace Deoghar" ],
+        "4_star": [ "Capitol Hill Ranchi", "Imperial Heights Deoghar" ],
+        "5_star": [ "Radisson Blu Ranchi" ]
+      },
+      "transportation": [ "Train", "Bus", "Cab", "Auto-rickshaw" ],
+      "dress_recommendation": "Light cotton in summer, warm clothing for hilly/misty spots in winter"
+    },
+    {
+      "name": "Karnataka",
+      "category": [ "Heritage", "Nature", "Temples", "Waterfalls", "Wildlife" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Hampi",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488582/Hampi_lagguk.jpg",
+          "location": "Bellary district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Vittala Temple", "Virupaksha Temple", "Lotus Mahal" ]
+        },
+        {
+          "name": "Mysore Palace",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488585/Mysore_i2qxrm.jpg",
+          "location": "Mysore",
+          "timing": "10AM - 5:30PM",
+          "ticket_price": 100,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Chamundi Hills", "Brindavan Gardens" ]
+        },
+        {
+          "name": "Coorg (Kodagu)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488580/coorg_mksxhg.jpg",
+          "location": "Kodagu district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [ "Abbey Falls", "Dubare Elephant Camp" ]
+        },
+        {
+          "name": "Gokarna",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488600/Gokarna_bsnnnm.jpg",
+          "location": "Uttara Kannada",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Om Beach", "Mahabaleshwar Temple" ]
+        },
+        {
+          "name": "Jog Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488584/jogg-falls_nxa7sv.jpg",
+          "location": "Shimoga district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Linganamakki Dam", "Honnemaradu" ]
+        },
+        {
+          "name": "Badami Caves",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488575/badami-cave-temples_iv3a71.jpg",
+          "location": "Bagalkot district",
+          "timing": "9AM - 5:30PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Pattadakal", "Aihole" ]
+        },
+        {
+          "name": "Chikmagalur",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488578/chikmagalur_izjfuc.jpg",
+          "location": "Chikmagalur district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Mullayanagiri", "Baba Budangiri" ]
+        },
+        {
+          "name": "Bandipur National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488575/bandipur_m6gnqe.jpg",
+          "location": "Chamarajanagar district",
+          "timing": "6AM - 9AM, 3PM - 6PM",
+          "ticket_price": 300,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Mudumalai Forest", "Himavad Gopalaswamy Temple" ]
+        },
+        {
+          "name": "Belur & Halebidu Temples",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488576/belur_halebidu_viz9hn.jpg",
+          "location": "Hassan district",
+          "timing": "7:30AM - 5:30PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Shravanabelagola" ]
+        },
+        {
+          "name": "Nandi Hills",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750488587/nandhi_yfg8fq.jpg",
+          "location": "Chikkaballapur district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Bhoga Nandeeshwara Temple", "Skandagiri" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Pai Vista Mysore", "Coorg International", "Hotel Viceroy Hampi" ],
+        "4_star": [ "The Serai Chikmagalur", "Heritage Resort Coorg", "Royal Orchid Central Bangalore" ],
+        "5_star": [ "Taj Madikeri Resort", "Radisson Blu Mysuru", "Evolve Back Hampi" ]
+      },
+      "transportation": [ "Train", "Bus", "Cab", "Bike Rental", "Auto-rickshaw" ],
+      "dress_recommendation": "Light cotton for coastal areas; layers for hilly regions like Coorg & Chikmagalur"
+    },
+    {
+      "name": "Kerala",
+      "category": [ "Backwaters", "Beaches", "Wildlife", "Hills", "Culture" ],
+      "best_months": [ "September", "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Alleppey Backwaters",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489344/Alleppey_Backwaters_toyhak.jpg",
+          "location": "Alappuzha district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 1000,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Marari Beach", "Alleppey Beach" ]
+        },
+        {
+          "name": "Munnar",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489353/Munnar_hy537w.jpg",
+          "location": "Idukki district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [ "Eravikulam National Park", "Tea Museum" ]
+        },
+        {
+          "name": "Kumarakom",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489351/Kumarakom_bade0u.jpg",
+          "location": "Kottayam district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 750,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Kumarakom Bird Sanctuary", "Vembanad Lake" ]
+        },
+        {
+          "name": "Thekkady",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489357/thekkady_pv2bid.webp",
+          "location": "Idukki district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 150,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Periyar Wildlife Sanctuary", "Spice Plantations" ]
+        },
+        {
+          "name": "Wayanad",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489359/wayanad_hiopov.webp",
+          "location": "Wayanad district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Edakkal Caves", "Banasura Sagar Dam" ]
+        },
+        {
+          "name": "Kovalam Beach",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489350/Kovalam_Beach_xmo31x.jpg",
+          "location": "Thiruvananthapuram",
+          "timing": "6AM - 7PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Lighthouse Beach", "Vellayani Lake" ]
+        },
+        {
+          "name": "Varkala Cliff",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489358/Varkala_Cliff_f2cplg.avif",
+          "location": "Varkala, Thiruvananthapuram",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Janardhana Swamy Temple", "Varkala Beach" ]
+        },
+        {
+          "name": "Athirapally Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489345/Athirapally_Falls_cqnygm.jpg",
+          "location": "Thrissur district",
+          "timing": "8AM - 5PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Vazhachal Falls", "Sholayar Dam" ]
+        },
+        {
+          "name": "Fort Kochi",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489348/Fort_Kochi_uo4irm.webp",
+          "location": "Ernakulam",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Chinese Fishing Nets", "St. Francis Church" ]
+        },
+        {
+          "name": "Bekal Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750489346/Bekal_Fort_l1fpny.jpg",
+          "location": "Kasaragod district",
+          "timing": "8AM - 5:30PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Bekal Beach", "Chandragiri Fort" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Abad Turtle Beach", "Hotel Sea Face Kovalam" ],
+        "4_star": [ "The Elephant Court Thekkady", "Sterling Wayanad" ],
+        "5_star": [ "Taj Kumarakom", "Le Meridien Kochi", "The Zuri Kumarakom" ]
+      },
+      "transportation": [ "Houseboat", "Bus", "Cab", "Train", "Auto-rickshaw" ],
+      "dress_recommendation": "Light cotton wear; comfortable shoes; shawl for temples"
+    },
+    {
+      "name": "Madhya Pradesh",
+      "category": [ "Heritage", "Wildlife", "Temples", "Nature", "Culture" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Khajuraho Temples",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490034/Khajuraho_Temples_rmrptr.jpg",
+          "location": "Chhatarpur district",
+          "timing": "8AM - 6PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Raneh Falls", "Panna National Park" ]
+        },
+        {
+          "name": "Sanchi Stupa",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490051/Sanchi_Stupa_qugtsc.webp",
+          "location": "Raisen district",
+          "timing": "8AM - 5PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Udayagiri Caves", "Vidisha" ]
+        },
+        {
+          "name": "Kanha National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490032/Kanha_National_Park_a7mxys.jpg",
+          "location": "Mandla district",
+          "timing": "6AM - 12PM, 3PM - 6PM",
+          "ticket_price": 250,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Bamni Dadar", "Kanha Museum" ]
+        },
+        {
+          "name": "Bandhavgarh National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490024/Bandhavgarh_National_Park_qgqijz.jpg",
+          "location": "Umaria district",
+          "timing": "6AM - 10:30AM, 3PM - 6PM",
+          "ticket_price": 250,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Bandhavgarh Fort" ]
+        },
+        {
+          "name": "Bhedaghat (Marble Rocks)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490026/Bhedaghat_Marble_Rocks_maiado.jpg",
+          "location": "Jabalpur district",
+          "timing": "6AM - 8PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Dhuandhar Falls", "Chausath Yogini Temple" ]
+        },
+        {
+          "name": "Ujjain – Mahakaleshwar Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490036/Mahakaleshwar_Temple_Ujjain_aayauk.jpg",
+          "location": "Ujjain district",
+          "timing": "4AM - 11PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Ram Ghat", "Harsiddhi Temple" ]
+        },
+        {
+          "name": "Pachmarhi Hill Station",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490042/Pachmarhi_krdqry.jpg",
+          "location": "Hoshangabad district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Bee Falls", "Pandava Caves" ]
+        },
+        {
+          "name": "Orchha",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490039/Orchha_mi7im0.jpg",
+          "location": "Niwas district",
+          "timing": "8AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Orchha Fort", "Chaturbhuj Temple" ]
+        },
+        {
+          "name": "Gwalior Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490030/Gwalior_Fort_hscrhz.jpg",
+          "location": "Gwalior district",
+          "timing": "8AM - 6PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Jai Vilas Palace", "Saas Bahu Temple" ]
+        },
+        {
+          "name": "Bhimbetka Rock Shelters",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490028/Bhimbetka_Rock_Shelters_o6dz7n.jpg",
+          "location": "Raisen district",
+          "timing": "7AM - 6PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Bhojpur Temple", "Sanchi" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Shree Residency Ujjain", "Hotel Satya Ashoka Jabalpur" ],
+        "4_star": [ "Hotel Radisson Gwalior", "Hotel Orchha Palace" ],
+        "5_star": [ "Jehan Numa Palace Bhopal", "Taj Usha Kiran Palace Gwalior" ]
+      },
+      "transportation": [ "Train", "Bus", "Cab", "Auto", "Rickshaw" ],
+      "dress_recommendation": "Cotton in summer, light woollens in winter, covered clothing for temples"
+    },
+    {
+      "name": "Maharashtra",
+      "category": [ "Heritage", "Hill Stations", "Beaches", "Temples", "Caves" ],
+      "best_months": [ "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Ajanta Caves",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490714/Ajanta_Caves_bxxjx1.jpg",
+          "location": "Aurangabad district",
+          "timing": "9AM - 5:30PM (Closed on Monday)",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Ellora Caves", "Grishneshwar Temple" ]
+        },
+        {
+          "name": "Ellora Caves",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490716/Ellora_Caves_innget.jpg",
+          "location": "Aurangabad district",
+          "timing": "6AM - 6PM (Closed on Tuesday)",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Daulatabad Fort", "Aurangabad Caves" ]
+        },
+        {
+          "name": "Gateway of India",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490717/Gateway_of_India_p90hom.jpg",
+          "location": "Mumbai",
+          "timing": "Open 24 hours",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Taj Mahal Palace", "Colaba Causeway" ]
+        },
+        {
+          "name": "Marine Drive",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490726/Marine_Drive_zvngew.jpg",
+          "location": "Mumbai",
+          "timing": "Open 24 hours",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Girgaon Chowpatty", "Nariman Point" ]
+        },
+        {
+          "name": "Mahabaleshwar",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490723/Mahabaleshwar_shoses.jpg",
+          "location": "Satara district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Pratapgad Fort", "Venna Lake" ]
+        },
+        {
+          "name": "Lonavala & Khandala",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490720/Lonavala_Khandala_vsrk7y.jpg",
+          "location": "Pune district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Rajmachi Fort", "Tiger Point" ]
+        },
+        {
+          "name": "Shirdi Sai Baba Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490731/Shirdi_Sai_Baba_Temple_sw7mjn.jpg",
+          "location": "Ahmednagar district",
+          "timing": "4AM - 11PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Dwarkamai", "Chavadi" ]
+        },
+        {
+          "name": "Trimbakeshwar Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490736/Trimbakeshwar_Temple_mbajdm.jpg",
+          "location": "Nashik district",
+          "timing": "5:30AM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Anjaneri Hills", "Brahmagiri Hills" ]
+        },
+        {
+          "name": "Tadoba Andhari Tiger Reserve",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490734/Tadoba_Tiger_Reserve_olb5cd.jpg",
+          "location": "Chandrapur district",
+          "timing": "6AM - 11AM, 3PM - 6PM",
+          "ticket_price": 300,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Moharli Gate", "Kolsa Zone" ]
+        },
+        {
+          "name": "Raigad Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750490729/Raigad_Fort_smyigj.jpg",
+          "location": "Raigad district",
+          "timing": "8AM - 6PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Takmak Tok", "Gangasagar Lake" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Fariyas Lonavala", "Hotel Sai Miracle Shirdi" ],
+        "4_star": [ "The Fern Residency Aurangabad", "Brightland Resort Mahabaleshwar" ],
+        "5_star": [ "Taj Mahal Palace Mumbai", "JW Marriott Pune" ]
+      },
+      "transportation": [ "Train", "Cab", "Bus", "Metro (Mumbai)", "Auto-rickshaw" ],
+      "dress_recommendation": "Light clothes for coast, comfortable shoes for forts & caves"
+    },
+    {
+      "name": "Manipur",
+      "category": [ "Nature", "Lakes", "Culture", "Temples", "Wildlife" ],
+      "best_months": [ "October", "November", "December", "February", "March", "April" ],
+      "locations": [
+        {
+          "name": "Loktak Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491355/Loktak_Lake_vxpm6j.webp",
+          "location": "Bishnupur district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Sendra Island", "INA Memorial" ]
+        },
+        {
+          "name": "Kangla Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491349/Kangla_Fort_Imphal_xsbjce.jpg",
+          "location": "Imphal",
+          "timing": "9AM - 5PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Ima Keithel", "Bir Tikendrajit Park" ]
+        },
+        {
+          "name": "Keibul Lamjao National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491352/Keibul_Lamjao_National_Park_dzzkqm.jpg",
+          "location": "Bishnupur district",
+          "timing": "8AM - 4PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Loktak Lake", "Moirang" ]
+        },
+        {
+          "name": "Ima Keithel (Mother's Market)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491342/Ima_Keithel_Market_uf3s1n.jpg",
+          "location": "Imphal",
+          "timing": "9AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Kangla Fort", "Thangal Bazar" ]
+        },
+        {
+          "name": "Shri Govindajee Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491339/Govindajee_Temple_Imphal_u7rxtl.jpg",
+          "location": "Imphal",
+          "timing": "6AM - 8PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Kangla Fort", "ISKCON Temple" ]
+        },
+        {
+          "name": "Sirohi National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491358/Sirohi_National_Park_wwolds.jpg",
+          "location": "Ukhrul district",
+          "timing": "6AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Shirui Peak", "Ukhrul Town" ]
+        },
+        {
+          "name": "Andro Village",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491310/Andro_Village_yeebpn.jpg",
+          "location": "Imphal East",
+          "timing": "9AM - 5PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Andro Cultural Complex", "Santhei Natural Park" ]
+        },
+        {
+          "name": "Tharon Cave",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491361/Tharon_Cave_dxl7gf.jpg",
+          "location": "Tamenglong district",
+          "timing": "7AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Zeilad Lake", "Tamenglong Town" ]
+        },
+        {
+          "name": "Dzukou Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491336/Dzukou_Valley_ijd6wu.jpg",
+          "location": "Senapati district (border with Nagaland)",
+          "timing": "All day (Trek Access)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 6,
+          "nearby_places": [ "Viswema Village", "Japfu Peak" ]
+        },
+        {
+          "name": "War Cemetery",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750491346/Imphal_War_Cemetery_mc4fih.jpg",
+          "location": "Imphal",
+          "timing": "8AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Bir Tikendrajit Park", "Kangla Fort" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Classic Imphal", "Imphal View Hotel" ],
+        "4_star": [ "The Classic Grande", "Donnali Resort Loktak" ],
+        "5_star": []
+      },
+      "transportation": [ "Shared Taxi", "Cab", "Bus", "Bike Rental" ],
+      "dress_recommendation": "Light woolens in winter, modest dress for temples & villages"
+    },
+    {
+      "name": "Meghalaya",
+      "category": [ "Nature", "Waterfalls", "Caves", "Hills", "Culture" ],
+      "best_months": [ "October", "November", "December", "March", "April", "May" ],
+      "locations": [
+        {
+          "name": "Cherrapunjee (Sohra)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492225/Cherrapunjee_vlgc6i.jpg",
+          "location": "East Khasi Hills",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Nohkalikai Falls", "Seven Sisters Falls" ]
+        },
+        {
+          "name": "Living Root Bridges",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492302/Living_Root_Bridges_q4s4fi.jpg",
+          "location": "Nongriat Village",
+          "timing": "6AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Rainbow Falls" ]
+        },
+        {
+          "name": "Umiam Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492251/Umiam_Lake_cxujq0.jpg",
+          "location": "Near Shillong",
+          "timing": "9AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Lum Nehru Park" ]
+        },
+        {
+          "name": "Mawsmai Cave",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492241/Mawsmai_Cave_wvyet0.jpg",
+          "location": "Near Cherrapunjee",
+          "timing": "9AM - 5:30PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Eco Park", "Arwah Cave" ]
+        },
+        {
+          "name": "Dawki (Umngot River)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492227/Dawki_drb2zj.jpg",
+          "location": "West Jaintia Hills",
+          "timing": "8AM - 5PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Shnongpdeng" ]
+        },
+        {
+          "name": "Shillong Peak",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492247/Shillong_Peak_vk3wt5.jpg",
+          "location": "East Khasi Hills",
+          "timing": "9AM - 3:30PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Elephant Falls" ]
+        },
+        {
+          "name": "Elephant Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492230/Elephant_Falls_s0ox9f.jpg",
+          "location": "Near Shillong",
+          "timing": "9AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Shillong Peak" ]
+        },
+        {
+          "name": "Nohkalikai Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492244/Nohkalikai_Falls_umrmzz.jpg",
+          "location": "Cherrapunjee",
+          "timing": "8AM - 5PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Seven Sisters Falls" ]
+        },
+        {
+          "name": "Laitlum Canyon",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492233/Laitlum_Canyon_acm6pn.jpg",
+          "location": "East Khasi Hills",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Smit Village" ]
+        },
+        {
+          "name": "Ward's Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750492254/Ward_s_Lake_hfegyt.jpg",
+          "location": "Shillong",
+          "timing": "8:30AM - 6:30PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Lady Hydari Park" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Centre Point", "Hotel Polo Towers", "Eden Residency" ],
+        "4_star": [ "Ri Kynjai Resort", "Courtyard Shillong" ],
+        "5_star": []
+      },
+      "transportation": [ "Cab", "Bike", "Shared Taxi", "Bus" ],
+      "dress_recommendation": "Comfortable walking shoes, raincoat/umbrella during rainy months, light woolens"
+    },
+    {
+      "name": "Mizoram",
+      "category": [ "Nature", "Culture", "Hills", "Waterfalls", "Tribal Heritage" ],
+      "best_months": [ "October", "November", "February", "March", "April" ],
+      "locations": [
+        {
+          "name": "Aizawl",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494980/Aizawl_e3jot1.jpg",
+          "location": "Aizawl district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Solomon's Temple", "Durtlang Hills" ]
+        },
+        {
+          "name": "Reiek Heritage Village",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494982/Reiek_Heritage_plui5m.jpg",
+          "location": "Near Aizawl",
+          "timing": "9AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Reiek Tlang (Hill)" ]
+        },
+        {
+          "name": "Vantawng Falls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494982/Vantawng_Falls_tq09pa.jpg",
+          "location": "Serchhip district",
+          "timing": "8AM - 5PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Thenzawl Deer Park" ]
+        },
+        {
+          "name": "Phawngpui (Blue Mountain)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494981/Phawngpui_Blue_moz6cp.jpg",
+          "location": "Lunglei district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Farpak Grassland" ]
+        },
+        {
+          "name": "Hmuifang",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494981/Hmuifang_Mizoram_ghhokk.jpg",
+          "location": "Aizawl district",
+          "timing": "All day",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Sialsuk" ]
+        },
+        {
+          "name": "Tamdil Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494982/Tamdil_Lake_aom5da.jpg",
+          "location": "Near Saitual",
+          "timing": "8AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Tuirial Hydel Project" ]
+        },
+        {
+          "name": "Rih Dil Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494981/Rih_Dil_Lake_k77mem.jpg",
+          "location": "Champhai district (near Myanmar border)",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Champhai Town" ]
+        },
+        {
+          "name": "Murlen National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494981/Murlen_National_Park_dvmv83.avif",
+          "location": "Champhai district",
+          "timing": "6AM - 4PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Lengteng Wildlife Sanctuary" ]
+        },
+        {
+          "name": "Lunglei",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494980/Lunglei_Mizoram_glrtyl.jpg",
+          "location": "Lunglei district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Zobawk Sports Academy", "Bridge of Lunglei" ]
+        },
+        {
+          "name": "Durtlang Hills",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750494980/Durtlang_Hills_Mizoram_czzawq.jpg",
+          "location": "Aizawl",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "View Point", "Falkawn Village" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Regency Aizawl", "Hotel Grand Aizawl", "Tourist Lodge Champhai" ],
+        "4_star": [ "The Esquire Aizawl", "Hotel Floria Lunglei" ],
+        "5_star": []
+      },
+      "transportation": [ "Cab", "Bus", "Shared Taxi", "Bike Rental" ],
+      "dress_recommendation": "Warm clothing in winter; trekking shoes for hills and nature walks"
+    },
+    {
+      "name": "Nagaland",
+      "category": [ "Culture", "Hills", "Festivals", "Tribal Villages", "Nature" ],
+      "best_months": [ "November", "December", "February", "March" ],
+      "locations": [
+        {
+          "name": "Kohima War Cemetery",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496321/Kohima_War_Cemetery_dbxmlt.jpg",
+          "location": "Kohima",
+          "timing": "9AM - 4PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Kohima Cathedral", "State Museum" ]
+        },
+        {
+          "name": "Hornbill Festival (Kisama Heritage Village)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496317/Hornbill_Festival_r7wdvu.jpg",
+          "location": "Kisama, near Kohima",
+          "timing": "9AM - 8PM (Dec 1–10)",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Heritage Village" ]
+        },
+        {
+          "name": "Dzukou Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496318/Dzukou_Valley_b4l9aj.avif",
+          "location": "Kohima district",
+          "timing": "All day (Trek access)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 6,
+          "nearby_places": [ "Japfu Peak", "Viswema Village" ]
+        },
+        {
+          "name": "Japfu Peak",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496317/Japfu_Peak_xji5sf.jpg",
+          "location": "Kohima district",
+          "timing": "All day (Trek access)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [ "Dzukou Valley" ]
+        },
+        {
+          "name": "Touphema Village",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496327/Touphema_Village_gqkhyw.png",
+          "location": "Kohima district",
+          "timing": "9AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Ruzaphema Market" ]
+        },
+        {
+          "name": "Khonoma Village",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496320/Khonoma_Village_v4j1kv.avif",
+          "location": "Near Kohima",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Dzüleke Eco Village" ]
+        },
+        {
+          "name": "Mokokchung",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496321/Mokokchung_lvqygr.webp",
+          "location": "Mokokchung district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Ungma Village", "Longkhum" ]
+        },
+        {
+          "name": "Dimapur Ruins (Kachari Ruins)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496318/Kachari_Ruins_db2pb2.jpg",
+          "location": "Dimapur",
+          "timing": "8AM - 5PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Diezephe Village", "Dimapur Market" ]
+        },
+        {
+          "name": "Shilloi Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496323/Shilloi_Lake_qcydch.jpg",
+          "location": "Phek district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Meluri" ]
+        },
+        {
+          "name": "Mon – Land of the Konyaks",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750496322/Mon_Nagaland_dcjbx9.jpg",
+          "location": "Mon district",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Longwa Village" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Vivor Kohima", "Saramati Hotel Dimapur" ],
+        "4_star": [ "De Oriental Grand Kohima" ],
+        "5_star": []
+      },
+      "transportation": [ "Shared Taxi", "Cab", "Bus", "Bike Rental" ],
+      "dress_recommendation": "Warm jackets for high altitudes; hiking shoes for valleys and treks"
+    },
+    {
+      "name": "Odisha",
+      "category": [ "Temples", "Nature", "Beaches", "Culture", "Wildlife" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Konark Sun Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497381/Konark_Sun_Temple_cjtcoa.jpg",
+          "location": "Konark",
+          "timing": "6AM - 8PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Chandrabhaga Beach" ]
+        },
+        {
+          "name": "Jagannath Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497379/Jagannath_Temple_Puri_jfewcu.jpg",
+          "location": "Puri",
+          "timing": "5AM - 11PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Puri Beach", "Gundicha Temple" ]
+        },
+        {
+          "name": "Chilika Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497376/Chilika_Lake_uranpa.jpg",
+          "location": "Satapada",
+          "timing": "6AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Nalabana Bird Sanctuary" ]
+        },
+        {
+          "name": "Udayagiri and Khandagiri Caves",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497388/Udayagiri_and_Khandagiri_Caves_uvennb.jpg",
+          "location": "Bhubaneswar",
+          "timing": "9AM - 6PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Lingaraj Temple", "Rajarani Temple" ]
+        },
+        {
+          "name": "Lingaraj Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497383/Lingaraj_Temple_Bhubaneswar_ihfkvy.jpg",
+          "location": "Bhubaneswar",
+          "timing": "6AM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Bindusagar Lake" ]
+        },
+        {
+          "name": "Simlipal National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497387/Simlipal_National_Park_ievjxh.jpg",
+          "location": "Mayurbhanj",
+          "timing": "6AM - 6PM",
+          "ticket_price": 100,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Joranda Falls", "Barehipani Falls" ]
+        },
+        {
+          "name": "Hirakud Dam",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497380/Hirakud_Dam_yq1sbl.png",
+          "location": "Sambalpur",
+          "timing": "9AM - 5PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Debrigarh Sanctuary" ]
+        },
+        {
+          "name": "Dhauli Shanti Stupa",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497378/Dhauli_Stupa_lobppo.jpg",
+          "location": "Bhubaneswar",
+          "timing": "6AM - 8PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Daya River", "Ashokan Edicts" ]
+        },
+        {
+          "name": "Raghurajpur Artist Village",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497386/Raghurajpur_Artist_Village_xc7ao9.jpg",
+          "location": "Near Puri",
+          "timing": "9AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Pipli Applique Village" ]
+        },
+        {
+          "name": "Nandankanan Zoological Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750497384/Nandankanan_Zoological_Park_ltezke.avif",
+          "location": "Bhubaneswar",
+          "timing": "8AM - 5PM (Closed on Monday)",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Botanical Garden" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Pushpak Bhubaneswar", "Hotel Holiday Resort Puri" ],
+        "4_star": [ "Trident Bhubaneswar", "Mayfair Waves Puri" ],
+        "5_star": [ "Swosti Premium Bhubaneswar" ]
+      },
+      "transportation": [ "Cab", "Bus", "Auto-rickshaw", "Bike Rental" ],
+      "dress_recommendation": "Light cotton clothing in summer; modest attire for temples"
+    },
+    {
+      "name": "Punjab",
+      "category": [ "Culture", "Religion", "History", "Nature", "Festivals" ],
+      "best_months": [ "October", "November", "February", "March" ],
+      "locations": [
+        {
+          "name": "Golden Temple (Harmandir Sahib)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498168/Golden_Temple_pw7xq7.jpg",
+          "location": "Amritsar",
+          "timing": "4AM - 11PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Jallianwala Bagh", "Partition Museum" ]
+        },
+        {
+          "name": "Wagah Border Ceremony",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498179/Wagah_Border_Ceremony_drargi.jpg",
+          "location": "Amritsar",
+          "timing": "4PM - 6PM (daily flag ceremony)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Attari", "Pul Kanjri" ]
+        },
+        {
+          "name": "Jallianwala Bagh",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498171/Jallianwala_Bagh_jpd43j.jpg",
+          "location": "Amritsar",
+          "timing": "7AM - 7PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Golden Temple", "Partition Museum" ]
+        },
+        {
+          "name": "Anandpur Sahib",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498165/Anandpur_Sahib_zfrk8i.jpg",
+          "location": "Rupnagar",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Virasat-e-Khalsa" ]
+        },
+        {
+          "name": "Virasat-e-Khalsa",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498178/Virasat-e-Khalsa_rnesko.avif",
+          "location": "Anandpur Sahib",
+          "timing": "10AM - 4PM (Closed on Monday)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Anandpur Sahib Gurudwara" ]
+        },
+        {
+          "name": "Sheesh Mahal",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498176/Sheesh_Mahal_Patiala_blw0iz.jpg",
+          "location": "Patiala",
+          "timing": "9AM - 5PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Qila Mubarak", "Baradari Gardens" ]
+        },
+        {
+          "name": "Rock Garden & Sukhna Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498174/Rock_Garden_hh9rev.jpg",
+          "location": "Chandigarh (Punjab capital)",
+          "timing": "9AM - 7PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Rose Garden", "Capitol Complex" ]
+        },
+        {
+          "name": "Pushpa Gujral Science City",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498172/Pushpa_Gujral_Science_City_asthnu.jpg",
+          "location": "Kapurthala",
+          "timing": "9AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Jagatjit Palace" ]
+        },
+        {
+          "name": "Harike Wetland and Bird Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498169/Harike_Wetland_xcmvej.jpg",
+          "location": "Ferozepur",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Katarian Village" ]
+        },
+        {
+          "name": "Bathinda Fort (Qila Mubarak)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750498166/Bathinda_Fort_j14fkw.jpg",
+          "location": "Bathinda",
+          "timing": "9AM - 6PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Bir Talab Zoo" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel CJ International Amritsar", "Hotel Narain Continental Patiala" ],
+        "4_star": [ "Holiday Inn Amritsar", "Hyatt Regency Ludhiana" ],
+        "5_star": [ "Taj Swarna Amritsar" ]
+      },
+      "transportation": [ "Cab", "Auto-rickshaw", "Bus", "Rail" ],
+      "dress_recommendation": "Modest traditional wear for temple visits; comfortable shoes for walking"
+    },
+    {
+      "name": "Rajasthan",
+      "category": [ "Heritage", "Palaces", "Desert", "Culture", "Wildlife" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Amber Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499524/Amber_Fort_ta1qgt.jpg",
+          "location": "Jaipur",
+          "timing": "8AM - 5:30PM",
+          "ticket_price": 100,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Jaigarh Fort", "Nahargarh Fort" ]
+        },
+        {
+          "name": "City Palace Jaipur",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499526/City_Palace_trk7iq.jpg",
+          "location": "Jaipur",
+          "timing": "9:30AM - 5PM",
+          "ticket_price": 200,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Jantar Mantar", "Hawa Mahal" ]
+        },
+        {
+          "name": "Hawa Mahal",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499528/Hawa_Mahal_lrtewz.jpg",
+          "location": "Jaipur",
+          "timing": "9AM - 4:30PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "City Palace", "Bapu Bazaar" ]
+        },
+        {
+          "name": "Jaisalmer Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499529/Jaisalmer_Fort_aumaq2.jpg",
+          "location": "Jaisalmer",
+          "timing": "9AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Patwon Ki Haveli", "Sam Sand Dunes" ]
+        },
+        {
+          "name": "Sam Sand Dunes",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499536/Sam_Sand_Dunes_xllbkk.jpg",
+          "location": "Near Jaisalmer",
+          "timing": "4PM - 10PM (ideal for sunset)",
+          "ticket_price": 200,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Desert Cultural Centre" ]
+        },
+        {
+          "name": "Lake Pichola",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499530/Lake_Pichola_Udaipur_ohv0rk.jpg",
+          "location": "Udaipur",
+          "timing": "9AM - 6PM",
+          "ticket_price": 100,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "City Palace Udaipur", "Jag Mandir" ]
+        },
+        {
+          "name": "City Palace Udaipur",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499525/City_Palace_Udaipur_hxm1fk.jpg",
+          "location": "Udaipur",
+          "timing": "9:30AM - 5:30PM",
+          "ticket_price": 300,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Lake Pichola", "Bagore Ki Haveli" ]
+        },
+        {
+          "name": "Mehrangarh Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499532/Mehrangarh_Fort_Jodhpur_euhsvz.webp",
+          "location": "Jodhpur",
+          "timing": "9AM - 5PM",
+          "ticket_price": 150,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Jaswant Thada", "Clock Tower" ]
+        },
+        {
+          "name": "Ranthambore National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499535/Ranthambore_National_Park_w1z0x8.jpg",
+          "location": "Sawai Madhopur",
+          "timing": "6AM - 10AM & 3PM - 6PM (Oct–Jun)",
+          "ticket_price": "450",
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Ranthambore Fort" ]
+        },
+        {
+          "name": "Pushkar Lake & Brahma Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750499533/Pushkar_Lake_cs4qe9.jpg",
+          "location": "Pushkar",
+          "timing": "5AM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Pushkar Bazaar", "Savitri Temple" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Arya Niwas Jaipur", "Hotel Tokyo Palace Jaisalmer" ],
+        "4_star": [ "Trident Udaipur", "Ranbanka Palace Jodhpur" ],
+        "5_star": [ "Taj Lake Palace Udaipur", "The Oberoi Rajvilas Jaipur" ]
+      },
+      "transportation": [ "Cab", "Auto-rickshaw", "Bus", "Bike Rental", "Camel Ride" ],
+      "dress_recommendation": "Cotton clothing in summer; light woolens in winter; modest attire for temples"
+    },
+    {
+      "name": "Sikkim",
+      "category": [ "Mountains", "Monasteries", "Lakes", "Adventure", "Nature" ],
+      "best_months": [ "March", "April", "May", "October", "November" ],
+      "locations": [
+        {
+          "name": "Tsomgo Lake (Changu Lake)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500826/Tsomgo_Lake_emyqpc.jpg",
+          "location": "East Sikkim",
+          "timing": "8AM - 5PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Baba Mandir" ]
+        },
+        {
+          "name": "Nathula Pass",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500821/Nathula_Pass_vbcefz.jpg",
+          "location": "East Sikkim (Indo-China border)",
+          "timing": "8AM - 3PM (Wed–Sun only)",
+          "ticket_price": 200,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Tsomgo Lake", "Baba Mandir" ]
+        },
+        {
+          "name": "Rumtek Monastery",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500825/Rumtek_Monastery_dlrkew.jpg",
+          "location": "Near Gangtok",
+          "timing": "8AM - 6PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Banjhakri Waterfalls" ]
+        },
+        {
+          "name": "MG Marg (Mall Road)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500820/MG_Marg_Gangtok_yfs4x0.jpg",
+          "location": "Gangtok",
+          "timing": "All day (pedestrian zone)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Lal Bazaar", "Ridge Park" ]
+        },
+        {
+          "name": "Namchi Char Dham",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500817/Char_Dham_Namchi_prmrbh.jpg",
+          "location": "Namchi, South Sikkim",
+          "timing": "9AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Samdruptse Hill" ]
+        },
+        {
+          "name": "Gurudongmar Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500818/Gurudongmar_Lake_ttpdgt.jpg",
+          "location": "North Sikkim",
+          "timing": "6AM - 12PM (permit needed)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Thangu Valley" ]
+        },
+        {
+          "name": "Lachung & Yumthang Valley",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500827/Yumthang_Valley_sd144i.jpg",
+          "location": "North Sikkim",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Zero Point" ]
+        },
+        {
+          "name": "Pelling Skywalk & Chenrezig Statue",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500822/Pelling_Skywalk_tskfh2.jpg",
+          "location": "West Sikkim",
+          "timing": "8AM - 5PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Sangachoeling Monastery" ]
+        },
+        {
+          "name": "Pemayangtse Monastery",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500823/Pemayangtse_Monastery_gcqcop.jpg",
+          "location": "Pelling",
+          "timing": "9AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Rabdentse Ruins" ]
+        },
+        {
+          "name": "Banjhakri Falls and Energy Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750500817/Banjhakri_Waterfalls_kesysh.jpg",
+          "location": "Gangtok",
+          "timing": "8AM - 6PM",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Rumtek Monastery" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Denzong Inn", "Hotel Golden Star", "The Elgin Nor-Khill" ],
+        "4_star": [ "Mayfair Spa Resort", "Summit Norling Resort" ],
+        "5_star": [ "Lemon Tree Hotel Gangtok", "Vivanta by Taj" ]
+      },
+      "transportation": [ "Cab", "Bike Rental", "Permit-based Tours", "Shared Jeep" ],
+      "dress_recommendation": "Thermal layers and jackets for high altitudes; raincoat in monsoon"
+    },
+    {
+      "name": "Tamil Nadu",
+      "category": [ "Temples", "Hills", "Beaches", "Culture", "Wildlife" ],
+      "best_months": [ "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Meenakshi Amman Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501538/Meenakshi_Amman_Temple_qx5ixh.jpg",
+          "location": "Madurai",
+          "timing": "5AM - 12:30PM & 4PM - 9:30PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Thirumalai Nayakkar Mahal" ]
+        },
+        {
+          "name": "Brihadeeswarar Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501533/Brihadeeswarar_Temple_urno2q.jpg",
+          "location": "Thanjavur",
+          "timing": "6AM - 12:30PM & 4PM - 8:30PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Thanjavur Palace" ]
+        },
+        {
+          "name": "Marina Beach",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501536/Marina_Beach_fcz3yl.jpg",
+          "location": "Chennai",
+          "timing": "Open 24 Hours",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Vivekananda House", "Fort St. George" ]
+        },
+        {
+          "name": "Kodaikanal",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501533/Kodaikanal_z9sbwm.jpg",
+          "location": "Dindigul District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Coaker's Walk", "Kodai Lake" ]
+        },
+        {
+          "name": "Ooty (Udhagamandalam)",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501540/Ooty_lueobt.jpg",
+          "location": "Nilgiris",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Ooty Lake", "Botanical Garden" ]
+        },
+        {
+          "name": "Rameswaram",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501542/Rameswaram_bqsvjy.jpg",
+          "location": "Ramanathapuram",
+          "timing": "5AM - 1PM & 3PM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Dhanushkodi", "Pamban Bridge" ]
+        },
+        {
+          "name": "Mahabalipuram",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501535/Mahabalipuram_kgyahd.jpg",
+          "location": "Chengalpattu",
+          "timing": "6AM - 6PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Shore Temple", "Five Rathas" ]
+        },
+        {
+          "name": "Yercaud",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501549/Yercaud_krqyjk.jpg",
+          "location": "Salem District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Lady's Seat", "Yercaud Lake" ]
+        },
+        {
+          "name": "Mudumalai Wildlife Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501539/Mudumalai_Wildlife_Sanctuary_toxema.jpg",
+          "location": "Nilgiris",
+          "timing": "6AM - 6PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Theppakadu Elephant Camp" ]
+        },
+        {
+          "name": "Srirangam Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750501544/Srirangam_Temple_xen21a.jpg",
+          "location": "Tiruchirappalli",
+          "timing": "6AM - 12PM & 3PM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Rockfort Temple" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "GRT Regency Madurai", "Hotel Tamil Nadu Kodaikanal" ],
+        "4_star": [ "The Carlton Kodaikanal", "Hotel Sangam Thanjavur" ],
+        "5_star": [ "ITC Grand Chola Chennai", "Taj Savoy Ooty" ]
+      },
+      "transportation": [ "Cab", "Bus", "Auto-rickshaw", "Rail", "Bike Rental" ],
+      "dress_recommendation": "Cotton clothes for hot regions, sweaters for hill stations, modest attire for temples"
+    },
+    {
+      "name": "Telangana",
+      "category": [ "Heritage", "Forts", "Waterfalls", "Temples", "Wildlife" ],
+      "best_months": [ "October", "November", "December", "January", "February" ],
+      "locations": [
+        {
+          "name": "Charminar",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502334/Charminar_xia5qs.jpg",
+          "location": "Hyderabad",
+          "timing": "9:30AM - 5:30PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Laad Bazaar", "Makkah Masjid" ]
+        },
+        {
+          "name": "Golconda Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502336/Golconda_Fort_dvr4fi.jpg",
+          "location": "Hyderabad",
+          "timing": "9AM - 5:30PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Qutub Shahi Tombs" ]
+        },
+        {
+          "name": "Ramoji Film City",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502342/Ramoji_Film_City_mfmhkc.jpg",
+          "location": "Hyderabad",
+          "timing": "9AM - 5:30PM",
+          "ticket_price": 1150,
+          "estimated_visit_time_hours": 5,
+          "nearby_places": [ "Sanghi Temple" ]
+        },
+        {
+          "name": "Nagarjuna Sagar Dam",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502339/Nagarjuna_Sagar_Dam_fjko9f.jpg",
+          "location": "Nalgonda District",
+          "timing": "9AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Ethipothala Waterfalls" ]
+        },
+        {
+          "name": "Bhongir Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502332/Bhongir_Fort_hm92ps.jpg",
+          "location": "Yadadri Bhuvanagiri",
+          "timing": "10AM - 5PM",
+          "ticket_price": 15,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Yadadri Temple" ]
+        },
+        {
+          "name": "Yadadri Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502346/Yadadri_Temple_korjce.jpg",
+          "location": "Yadagirigutta",
+          "timing": "4AM - 9:30PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Bhongir Fort" ]
+        },
+        {
+          "name": "Kuntala Waterfalls",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502337/Kuntala_Waterfalls_ibvgyn.jpg",
+          "location": "Adilabad",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Pochera Falls" ]
+        },
+        {
+          "name": "Warangal Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502344/Warangal_Fort_azsyuz.jpg",
+          "location": "Warangal",
+          "timing": "9AM - 5PM",
+          "ticket_price": 15,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Thousand Pillar Temple" ]
+        },
+        {
+          "name": "Pakhal Lake & Wildlife Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502341/Pakhal_Lake_oaiuqd.jpg",
+          "location": "Warangal",
+          "timing": "6AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Eturnagaram Wildlife Sanctuary" ]
+        },
+        {
+          "name": "Birla Mandir",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750502333/Birla_Mandir_cnb8ku.jpg",
+          "location": "Hyderabad",
+          "timing": "7AM - 12PM & 3PM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Hussain Sagar Lake", "Necklace Road" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Aditya Park", "The Central Court" ],
+        "4_star": [ "Radisson Banjara Hills", "Lemon Tree Gachibowli" ],
+        "5_star": [ "Taj Krishna", "ITC Kakatiya Hyderabad" ]
+      },
+      "transportation": [ "Metro", "Cab", "Bus", "Auto-rickshaw", "Bike Rental" ],
+      "dress_recommendation": "Light cotton clothes in summer; modest attire for temples"
+    },
+    {
+      "name": "Tripura",
+      "category": [ "Palaces", "Temples", "Nature", "Wildlife", "Culture" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Ujjayanta Palace",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503300/Ujjayanta_Palace_oafmkj.jpg",
+          "location": "Agartala",
+          "timing": "10AM - 5PM (Closed Monday)",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Heritage Park" ]
+        },
+        {
+          "name": "Neermahal Palace",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503294/Neermahal_kcbf0j.jpg",
+          "location": "Rudrasagar Lake",
+          "timing": "9AM - 5PM",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Rudrasagar Lake Boating" ]
+        },
+        {
+          "name": "Tripura Sundari Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503298/Tripura_Sundari_Temple_zxmn9h.jpg",
+          "location": "Udaipur",
+          "timing": "5AM - 9PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Bhubaneshwari Temple" ]
+        },
+        {
+          "name": "Jampui Hills",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503293/Jampui_j8rbgr.jpg",
+          "location": "North Tripura",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Vanghmun Village" ]
+        },
+        {
+          "name": "Sepahijala Wildlife Sanctuary",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503296/Sepahijala_Wildlife_Sanctuary_tz0hqf.jpg",
+          "location": "Sepahijala District",
+          "timing": "8AM - 4PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Botanic Garden" ]
+        },
+        {
+          "name": "Unakoti Rock Carvings",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503302/Unakoti_Rock_Carvings_lxkn7y.jpg",
+          "location": "Unakoti District",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Kailashahar" ]
+        },
+        {
+          "name": "Dumboor Lake",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503289/Dumboor_Lake_d8cx6g.jpg",
+          "location": "Gomati District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Tirthamukh" ]
+        },
+        {
+          "name": "Bhuvaneswari Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503287/Bhuvaneswari_Temple_dcrcsx.jpg",
+          "location": "Udaipur",
+          "timing": "6AM - 7PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Tripura Sundari Temple" ]
+        },
+        {
+          "name": "Heritage Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503291/Heritage_Park_Agartala_jkamn3.jpg",
+          "location": "Agartala",
+          "timing": "6AM - 6PM",
+          "ticket_price": 10,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Ujjayanta Palace" ]
+        },
+        {
+          "name": "Chabimura Rock Carvings",
+          "photo": "https://example.com/images/chabimura.jpg",
+          "location": "Gomati District",
+          "timing": "9AM - 5PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Dumboor Lake" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Polo Tower", "Hotel Sonar Tori" ],
+        "4_star": [ "Ginger Agartala", "Royal Guest House" ],
+        "5_star": [ "None available in Tripura" ]
+      },
+      "transportation": [ "Cab", "Bus", "Auto-rickshaw", "Bike Rental" ],
+      "dress_recommendation": "Comfortable cotton clothing, light woolens in winter"
+    },
+    {
+      "name": "Uttar Pradesh",
+      "category": [ "Historical", "Spiritual", "Nature", "Culture" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Taj Mahal",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503758/Taj_Mahal_txgv9v.jpg",
+          "location": "Agra",
+          "timing": "6AM - 6:30PM (Closed Friday)",
+          "ticket_price": 50,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Agra Fort", "Mehtab Bagh" ]
+        },
+        {
+          "name": "Agra Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503745/Agra_Fort_taunie.jpg",
+          "location": "Agra",
+          "timing": "6AM - 6PM",
+          "ticket_price": 35,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Taj Mahal" ]
+        },
+        {
+          "name": "Varanasi Ghats",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503762/Varanasi_Ghats_zxr2gj.jpg",
+          "location": "Varanasi",
+          "timing": "Open all day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Kashi Vishwanath Temple", "Sarnath" ]
+        },
+        {
+          "name": "Kashi Vishwanath Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503750/Kashi_Vishwanath_Temple_nqugxx.jpg",
+          "location": "Varanasi",
+          "timing": "4AM - 11PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Dashashwamedh Ghat" ]
+        },
+        {
+          "name": "Fatehpur Sikri",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503746/Fatehpur_Sikri_zf6dzg.jpg",
+          "location": "Near Agra",
+          "timing": "6AM - 6PM",
+          "ticket_price": 40,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Buland Darwaza", "Panch Mahal" ]
+        },
+        {
+          "name": "Sarnath",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503755/Sarnath_qqdln5.jpg",
+          "location": "Varanasi",
+          "timing": "6AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Dhamek Stupa", "Archaeological Museum" ]
+        },
+        {
+          "name": "Jhansi Fort",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503748/Jhansi_Fort_a9hb8e.jpg",
+          "location": "Jhansi",
+          "timing": "6AM - 6PM",
+          "ticket_price": 25,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Rani Mahal" ]
+        },
+        {
+          "name": "Prem Mandir",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503752/Prem_Mandir_zikx5a.jpg",
+          "location": "Vrindavan",
+          "timing": "8:30AM - 12PM & 4:30PM - 8:30PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Banke Bihari Temple" ]
+        },
+        {
+          "name": "Ayodhya Ram Janmabhoomi",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503754/Ram_Mandir_r4hpbk.jpg",
+          "location": "Ayodhya",
+          "timing": "7AM - 11AM & 2PM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Hanuman Garhi", "Saryu Ghat" ]
+        },
+        {
+          "name": "Allahabad Triveni Sangam",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750503760/Triveni_Sangam_xrdkmd.jpg",
+          "location": "Prayagraj (Allahabad)",
+          "timing": "6AM - 6PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Anand Bhavan", "Khusro Bagh" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Clarks Inn Agra", "Hotel City Inn Varanasi" ],
+        "4_star": [ "The Amayaa Varanasi", "Lemon Tree Premier Agra" ],
+        "5_star": [ "Taj Hotel & Convention Centre Agra", "Radisson Hotel Varanasi" ]
+      },
+      "transportation": [ "Train", "Cab", "Bus", "Metro (Lucknow)", "Auto-rickshaw" ],
+      "dress_recommendation": "Cotton clothes in summer; modest attire for temples and religious places"
+    },
+    {
+      "name": "Uttarakhand",
+      "category": [ "Spiritual", "Hill Stations", "Nature", "Trekking", "Wildlife" ],
+      "best_months": [ "March", "April", "May", "September", "October", "November" ],
+      "locations": [
+        {
+          "name": "Haridwar",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504280/Haridwar_gnht7f.jpg",
+          "location": "Haridwar",
+          "timing": "Open all day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Har Ki Pauri", "Chandi Devi Temple" ]
+        },
+        {
+          "name": "Rishikesh",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504290/Rishikesh_cov4ej.jpg",
+          "location": "Dehradun District",
+          "timing": "Open all day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Laxman Jhula", "Triveni Ghat", "Neelkanth Mahadev Temple" ]
+        },
+        {
+          "name": "Nainital",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504288/Nainital_xrzkst.jpg",
+          "location": "Nainital District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Naini Lake", "Snow View Point" ]
+        },
+        {
+          "name": "Mussoorie",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504286/Mussoorie_fv1q5f.jpg",
+          "location": "Dehradun District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Kempty Falls", "Gun Hill" ]
+        },
+        {
+          "name": "Kedarnath Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504284/Kedarnath_Temple_rblxcd.jpg",
+          "location": "Rudraprayag District",
+          "timing": "4AM - 9PM (May to Nov)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Gaurikund" ]
+        },
+        {
+          "name": "Badrinath Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504275/Badrinath_Temple_xdomtp.jpg",
+          "location": "Chamoli District",
+          "timing": "6AM - 8PM (May to Nov)",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Mana Village" ]
+        },
+        {
+          "name": "Valley of Flowers National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504293/Valley_of_Flowers_vukrw1.jpg",
+          "location": "Chamoli",
+          "timing": "7AM - 5PM (June to Oct)",
+          "ticket_price": 150,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Hemkund Sahib" ]
+        },
+        {
+          "name": "Jim Corbett National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504282/jim_corbETT_xvkdil.jpg",
+          "location": "Nainital District",
+          "timing": "6AM - 9AM & 3PM - 6PM",
+          "ticket_price": 200,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Garjiya Devi Temple" ]
+        },
+        {
+          "name": "Auli",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504274/Auli_k2zrt2.jpg",
+          "location": "Chamoli District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Joshimath", "Gurso Bugyal" ]
+        },
+        {
+          "name": "Chopta",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750504278/Chopta_w10wtz.jpg",
+          "location": "Rudraprayag District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Tungnath Temple", "Chandrashila Peak" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Himalaya (Nainital)", "Green Hills Cottage (Mussoorie)" ],
+        "4_star": [ "Sterling Mussoorie", "Aloha on the Ganges (Rishikesh)" ],
+        "5_star": [ "The Naini Retreat", "JW Marriott Mussoorie Walnut Grove Resort" ]
+      },
+      "transportation": [ "Taxi", "Bus", "Cable Car", "Train (limited areas)", "Shared Jeep" ],
+      "dress_recommendation": "Warm clothing for hills, modest attire for temples, trekking gear for adventure spots"
+    },
+    {
+      "name": "West Bengal",
+      "category": [ "Heritage", "Temples", "Nature", "Wildlife", "Hill Stations", "Beaches" ],
+      "best_months": [ "October", "November", "December", "January", "February", "March" ],
+      "locations": [
+        {
+          "name": "Victoria Memorial",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505125/Victoria_Memorial_nxhptj.jpg",
+          "location": "Kolkata",
+          "timing": "10AM - 5PM (Closed Monday)",
+          "ticket_price": 30,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "St. Paul's Cathedral", "Maidan" ]
+        },
+        {
+          "name": "Darjeeling",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505111/Darjeeling_w25cgp.jpg",
+          "location": "Darjeeling District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Tiger Hill", "Batasia Loop", "Tea Gardens" ]
+        },
+        {
+          "name": "Sundarbans National Park",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505123/Sundarbans_National_Park_znpws9.jpg",
+          "location": "South 24 Parganas",
+          "timing": "8AM - 6PM",
+          "ticket_price": 100,
+          "estimated_visit_time_hours": 4,
+          "nearby_places": [ "Sajnekhali Watch Tower" ]
+        },
+        {
+          "name": "Dakshineswar Kali Temple",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505109/Dakshineswar_Kali_Temple_vq70q5.jpg",
+          "location": "Kolkata",
+          "timing": "6AM - 12:30PM & 3PM - 8:30PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Belur Math" ]
+        },
+        {
+          "name": "Howrah Bridge",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505116/Howrah_Bridge_isuscn.jpg",
+          "location": "Kolkata",
+          "timing": "Open all day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1,
+          "nearby_places": [ "Millennium Park" ]
+        },
+        {
+          "name": "Kalimpong",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505118/Kalimpong_y4vt2l.jpg",
+          "location": "Kalimpong District",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 3,
+          "nearby_places": [ "Deolo Hill", "Pine View Nursery" ]
+        },
+        {
+          "name": "Digha Beach",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505114/Digha_Beach_nzbu2l.jpg",
+          "location": "Purba Medinipur",
+          "timing": "All day",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Shankarpur Beach" ]
+        },
+        {
+          "name": "Bishnupur Terracotta Temples",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505107/Bishnupur_Terracotta_Temples_ylqpst.jpg",
+          "location": "Bankura District",
+          "timing": "8AM - 6PM",
+          "ticket_price": 20,
+          "estimated_visit_time_hours": 2,
+          "nearby_places": [ "Rasmancha", "Jor Bangla Temple" ]
+        },
+        {
+          "name": "Science City",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505120/Science_City_hrlrrp.jpg",
+          "location": "Kolkata",
+          "timing": "9AM - 8PM",
+          "ticket_price": 60,
+          "estimated_visit_time_hours": 2.5,
+          "nearby_places": [ "Eco Park" ]
+        },
+        {
+          "name": "Belur Math",
+          "photo": "https://res.cloudinary.com/diutdhsh3/image/upload/v1750505106/Belur_Math_bhrth2.jpg",
+          "location": "Howrah",
+          "timing": "6AM - 11:30AM & 4PM - 7PM",
+          "ticket_price": 0,
+          "estimated_visit_time_hours": 1.5,
+          "nearby_places": [ "Dakshineswar Temple" ]
+        }
+      ],
+      "stays": {
+        "3_star": [ "Hotel Dee Empresa", "Broadway Hotel" ],
+        "4_star": [ "Kenilworth Hotel", "The Elgin Darjeeling" ],
+        "5_star": [ "The Oberoi Grand Kolkata", "Taj Bengal" ]
+      },
+      "transportation": [ "Metro", "Bus", "Cab", "Tram (Kolkata)", "Train" ],
+      "dress_recommendation": "Light cotton in summer, warm clothes in hills, modest dress for temples"
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ]
 }

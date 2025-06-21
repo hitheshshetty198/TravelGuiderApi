@@ -29,50 +29,105 @@ namespace TravelGuiderAPI.Controllers
             var json = System.IO.File.ReadAllText(path);
             var data = JsonConvert.DeserializeObject<PlaceData>(json);
 
+            // First, try finding by place/state name
             var place = data.Places.FirstOrDefault(p =>
                 p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
 
-            if (place == null) return NotFound("Place not found");
-
-            // 🧠 Use the place name as the city name for weather API
-            string apiKey = _config["OpenWeatherMap:ApiKey"];
-            string url = $"https://api.openweathermap.org/data/2.5/weather?q={place.Name}&appid={apiKey}&units=metric";
-
-            using var client = new HttpClient();
-            var response = await client.GetAsync(url);
-            var content = await response.Content.ReadAsStringAsync();
-
-            float temperature = 0;
-            string condition = "N/A";
-            string suggestion = "No weather suggestion";
-
-            if (response.IsSuccessStatusCode)
+            if (place != null)
             {
-                var weather = JsonConvert.DeserializeObject<WeatherResponse>(content);
-                temperature = weather.Main.Temp;
-                condition = weather.Weather.FirstOrDefault()?.Description ?? "Unknown";
-                suggestion = temperature > 35 ? "Too hot to travel" :
-                             temperature < 10 ? "Too cold, pack warm clothes" :
-                             "Great time to visit";
+                // Get weather using place name
+                string apiKey = _config["OpenWeatherMap:ApiKey"];
+                string url = $"https://api.openweathermap.org/data/2.5/weather?q={place.Name}&appid={apiKey}&units=metric";
+
+                using var client = new HttpClient();
+                var response = await client.GetAsync(url);
+                var content = await response.Content.ReadAsStringAsync();
+
+                float temperature = 0;
+                string condition = "N/A";
+                string suggestion = "No weather suggestion";
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var weather = JsonConvert.DeserializeObject<WeatherResponse>(content);
+                    temperature = weather.Main.Temp;
+                    condition = weather.Weather.FirstOrDefault()?.Description ?? "Unknown";
+                    suggestion = temperature > 35 ? "Too hot to travel" :
+                                 temperature < 10 ? "Too cold, pack warm clothes" :
+                                 "Great time to visit";
+                }
+
+                return Ok(new
+                {
+                    place.Name,
+                    place.Category,
+                    place.Best_Months,
+                    place.Locations,
+                    place.Stays,
+                    place.Transportation,
+                    place.Dress_Recommendation,
+                    Weather = new
+                    {
+                        Temperature = temperature,
+                        Condition = condition,
+                        Suggestion = suggestion
+                    }
+                });
             }
 
-            return Ok(new
+            // If not found by place name, try by location inside any place
+            place = data.Places.FirstOrDefault(p =>
+                p.Locations.Any(loc => loc.Name.Equals(name, StringComparison.OrdinalIgnoreCase)));
+
+            if (place != null)
             {
-                place.Name,
-                place.Category,
-                place.Best_Months,
-                place.Locations,
-                place.Stays,
-                place.Transportation,
-                place.Dress_Recommendation,
-                Weather = new
+                var location = place.Locations.First(l =>
+                    l.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+
+                string city = place.Name;
+
+                // Weather by city
+                string apiKey = _config["OpenWeatherMap:ApiKey"];
+                string url = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric";
+
+                using var client = new HttpClient();
+                var response = await client.GetAsync(url);
+                var content = await response.Content.ReadAsStringAsync();
+
+                float temperature = 0;
+                string condition = "N/A";
+                string suggestion = "No weather suggestion";
+
+                if (response.IsSuccessStatusCode)
                 {
-                    Temperature = temperature,
-                    Condition = condition,
-                    Suggestion = suggestion
+                    var weather = JsonConvert.DeserializeObject<WeatherResponse>(content);
+                    temperature = weather.Main.Temp;
+                    condition = weather.Weather.FirstOrDefault()?.Description ?? "Unknown";
+                    suggestion = temperature > 35 ? "Too hot to travel" :
+                                 temperature < 10 ? "Too cold, pack warm clothes" :
+                                 "Great time to visit";
                 }
-            });
+
+                return Ok(new
+                {
+                    PlaceName = name,
+                    NearbyPlaces = location.Nearby_Places,
+                    place.Best_Months,
+                    place.Stays,
+                    place.Transportation,
+                    place.Dress_Recommendation,
+                    Weather = new
+                    {
+                        Temperature = temperature,
+                        Condition = condition,
+                        Suggestion = suggestion
+                    }
+                });
+            }
+
+            return NotFound("Place or location not found");
         }
+
 
         [HttpGet("search-by-place")]
         public async Task<IActionResult> SearchByPlace(string placeName)
@@ -161,6 +216,8 @@ namespace TravelGuiderAPI.Controllers
 
             return Ok(result); // ✅ This is correct — here Ok() is valid
         }
+
+        
 
 
     }
