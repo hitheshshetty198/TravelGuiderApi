@@ -50,7 +50,7 @@ namespace TravelGuiderAPI.Controllers
             {
                 Email = user.Email,
                 Token = token,
-                ExpiresAt = DateTime.UtcNow.AddHours(1)
+                ExpiresAt = DateTime.UtcNow.AddHours(24)
             });
 
             System.IO.File.WriteAllText(sessionPath, JsonConvert.SerializeObject(sessions, Formatting.Indented));
