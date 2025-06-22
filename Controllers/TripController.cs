@@ -108,6 +108,31 @@ namespace TravelGuiderAPI.Controllers
             });
         }
 
+        [HttpGet("suggest-places")]
+        public IActionResult SuggestPlaces(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+                return BadRequest("Query cannot be empty");
+
+            var filePath = Path.Combine(_env.ContentRootPath, "Data/places.json");
+            var json = System.IO.File.ReadAllText(filePath);
+            var data = JsonConvert.DeserializeObject<PlaceData>(json);
+
+            query = query.Trim().ToLower();
+
+            var matchedPlaceNames = data.Places
+                .Where(p => p.Name != null && p.Name.ToLower().Contains(query))
+                .Select(p => p.Name)
+                .Distinct()
+                .ToList();
+
+            if (!matchedPlaceNames.Any())
+                return NotFound("No matching state names found");
+
+            return Ok(matchedPlaceNames);
+        }
+
+
         [HttpPost("save-trip")]
         public IActionResult SaveTrip([FromQuery] string token, [FromBody] TripSaveRequest request)
         {

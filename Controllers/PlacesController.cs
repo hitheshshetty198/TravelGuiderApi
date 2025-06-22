@@ -141,61 +141,30 @@ namespace TravelGuiderAPI.Controllers
             return NotFound("Place or location not found");
         }
 
-
-
-
-        [HttpGet("search-by-place")]
-        public async Task<IActionResult> SearchByPlace(string placeName)
+        [HttpGet("suggest")]
+        public IActionResult Suggest(string query)
         {
+            if (string.IsNullOrWhiteSpace(query))
+                return BadRequest("Search query is empty");
+
             var path = Path.Combine(_env.ContentRootPath, "Data/places.json");
             var json = System.IO.File.ReadAllText(path);
             var data = JsonConvert.DeserializeObject<PlaceData>(json);
 
-            var place = data.Places.FirstOrDefault(p =>
-                p.Locations.Any(loc => loc.Name.Equals(placeName, StringComparison.OrdinalIgnoreCase)));
+            query = query.Trim().ToLower();
 
-            if (place == null) return NotFound("Place not found");
+            // Collect all matching names from places and their locations
+            var matchedNames = data.Places
+                .Select(p => p.Name)
+                .Concat(data.Places.SelectMany(p => p.Locations.Select(loc => loc.Name)))
+                .Where(name => name != null && name.ToLower().Contains(query))
+                .Distinct()
+                .ToList();
 
-            // Find the parent state/city
-            var city = place.Name;
+            if (!matchedNames.Any())
+                return NotFound("No matching places found");
 
-            // 🔁 Get current weather
-            string apiKey = _config["OpenWeatherMap:ApiKey"];
-            string url = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric";
-
-            using var client = new HttpClient();
-            var response = await client.GetAsync(url);
-            var content = await response.Content.ReadAsStringAsync();
-
-            float temperature = 0;
-            string condition = "N/A";
-            string suggestion = "No weather suggestion";
-
-            if (response.IsSuccessStatusCode)
-            {
-                var weather = JsonConvert.DeserializeObject<WeatherResponse>(content);
-                temperature = weather.Main.Temp;
-                condition = weather.Weather.FirstOrDefault()?.Description ?? "Unknown";
-                suggestion = temperature > 35 ? "Too hot to travel" :
-                             temperature < 10 ? "Too cold, pack warm clothes" :
-                             "Great time to visit";
-            }
-
-            return Ok(new
-            {
-                PlaceName = placeName,
-                NearbyPlaces = place.Locations.FirstOrDefault(l => l.Name.Equals(placeName, StringComparison.OrdinalIgnoreCase))?.Nearby_Places,
-                place.Best_Months,
-                place.Stays,
-                place.Transportation,
-                place.Dress_Recommendation,
-                Weather = new
-                {
-                    Temperature = temperature,
-                    Condition = condition,
-                    Suggestion = suggestion
-                }
-            });
+            return Ok(matchedNames);
         }
 
 
