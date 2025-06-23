@@ -1,7 +1,7 @@
 ﻿using TravelGuiderAPI.Models;
 using System.Text.Json;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq; // for JObject
+using Newtonsoft.Json.Linq;
 
 
 namespace TravelGuiderAPI.Services

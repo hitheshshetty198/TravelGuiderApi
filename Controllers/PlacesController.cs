@@ -152,8 +152,6 @@ namespace TravelGuiderAPI.Controllers
             var data = JsonConvert.DeserializeObject<PlaceData>(json);
 
             query = query.Trim().ToLower();
-
-            // Collect all matching names from places and their locations
             var matchedNames = data.Places
                 .Select(p => p.Name)
                 .Concat(data.Places.SelectMany(p => p.Locations.Select(loc => loc.Name)))
@@ -198,7 +196,7 @@ namespace TravelGuiderAPI.Controllers
             if (result == null)
                 return NotFound("Place not found or weather info not available");
 
-            return Ok(result); // ✅ This is correct — here Ok() is valid
+            return Ok(result);
         }
 
         
